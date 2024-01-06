@@ -1,0 +1,24 @@
+.OurStory{
+width: 100vw;
+}
+.OurStory-hero{
+    height: 100vh;
+    width: 100vw;
+    background: url("./OurStoryPage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OurStory-content{
+    background: url("../../assets/ourstory/background.jpg");
+    background: #fffcfc;
+    background-size: contain;
+    font-family: Abril Fatface,serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0;
+
+}
