@@ -1,7 +1,7 @@
 // Navbar.js
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css";
+import "./navbar.css";
 import Logo from "../../assets/logos/FBI-LOGO-H.webp";
 import Bus from "../../assets/logos/Bus.webp";
 
