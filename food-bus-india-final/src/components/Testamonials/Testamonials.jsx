@@ -20,7 +20,7 @@ const Testamonials = () => {
 
   return (
     <div className="testimonial-container">
-      <h1>What Our Custome say</h1>
+      <h1>What Our Customer say</h1>
       <div className="testimonial-fade">
         {testimonialData.map((image, index) => (
           <div
