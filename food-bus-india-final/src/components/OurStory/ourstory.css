@@ -11,17 +11,30 @@
 }
 .OurStory-content {
   background: rgba(0, 0, 0, 0.5);
-  margin: 10vw;
+  margin: 20vw;
+  padding: 5vw;
+  text-align: center;
   h1 {
+    color: rgb(219, 43, 43);
     font-size: 3em;
-    font-weight: 500;
+    font-weight: 700;
   }
   p {
+    margin-top: 20px;
     font-size: 1.5em;
   }
 }
 
 @media (max-width: 768px) {
   .OurStory-content {
+    padding: 10px;
+    margin: 10vw;
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.2em;
+    }
   }
 }
