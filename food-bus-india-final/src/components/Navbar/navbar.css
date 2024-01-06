@@ -1,0 +1,111 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: url("./Nav-bg.jpg");
+  color: white;
+  transition: transform 0.3s ease;
+  height: 100px;
+  position: fixed;
+  width: 100vw;
+}
+
+.Nav-logo {
+  img {
+    position: relative;
+    height: 120px;
+    rotate: -16deg;
+    top: 20px;
+    z-index: 3;
+  }
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a.selected {
+  text-decoration: underline;
+}
+/* Add this to your main CSS file or create a new one */
+
+@keyframes MoviingBuss {
+  0% {
+    left: -5%;
+  }
+
+  100% {
+    left: calc(100% - 120px);
+  }
+}
+
+.Nav-Bus {
+  top: 3px;
+
+  height: 100px; /* Set your desired height */
+
+  position: fixed;
+  left: calc(100% - 120px);
+  animation: MoviingBuss 5s linear;
+  img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+/* Sidebar Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+  .Nav-Bus {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+  }
+
+  .nav-links a {
+    margin: 10px 15px;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 15px;
+    display: block;
+  }
+}
