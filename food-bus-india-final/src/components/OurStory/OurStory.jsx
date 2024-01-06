@@ -2,8 +2,8 @@ import React from "react";
 import "./ourstory.css";
 function OurStory() {
   return (
-    <div className="OurStory">
-      <div className="OurStory-content">
+    <div className="OurStory-C">
+      <div className="OurStory-C-content">
         <h1>Our Story</h1>
         <p>
           Food Bus of India: Redefining Dining Experiences Step into the future

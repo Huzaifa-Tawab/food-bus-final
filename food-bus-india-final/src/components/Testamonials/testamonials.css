@@ -1,0 +1,48 @@
+.testimonial-container {
+  height: 90vh;
+  width: 100vw;
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  h1 {
+    color: black;
+  }
+}
+
+.testimonial-fade {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.testimonial {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.testimonial.active {
+  opacity: 1;
+}
+
+.testimonial img {
+  width: 80%; /* Adjust image size as needed */
+  object-fit: cover; /* Maintain aspect ratio for images */
+}
+
+/* Add additional styling as needed */
+@media (max-width: 768px) {
+  .testimonial-container {
+    height: 35vh;
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}

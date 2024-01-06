@@ -1,0 +1,88 @@
+.Kitchen {
+  height: 100vh;
+  width: 100vw;
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  span {
+    padding-left: 10vw;
+    color: rgb(27, 37, 126);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}
+.Kitchen-Flex {
+  display: flex;
+  margin: 0px 10vw 20px 10vw;
+  img {
+    width: 30vw;
+  }
+  p {
+    color: rgb(219, 43, 43);
+    font-weight: 500;
+
+    font-size: 1.7rem;
+  }
+}
+.Kitchen-facts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Kitchen-fact {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 100%;
+}
+.red {
+  background: rgb(219, 43, 43);
+}
+.blue {
+  background: rgb(27, 37, 126);
+}
+@media (max-width: 768px) {
+  .Kitchen {
+    p {
+      font-size: 0.8rem;
+    }
+
+    span {
+      margin-bottom: 10px;
+      padding: 0px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+
+  .Kitchen-Flex {
+    margin: 0px;
+    flex-direction: column-reverse;
+    align-items: center;
+    img {
+      width: 100vw;
+      height: 180px;
+    }
+  }
+  .Kitchen-facts {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .Kitchen-fact {
+    height: 40vw;
+    width: 40vw;
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

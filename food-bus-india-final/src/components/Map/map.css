@@ -1,0 +1,8 @@
+.Map {
+  height: 90vh;
+  width: 100vw;
+  background: url("./Map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

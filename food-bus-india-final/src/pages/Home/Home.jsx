@@ -7,6 +7,9 @@ import ParallaxVideo1 from "../../assets/home/Hero.webm";
 import ParallaxVideo2 from "../../assets/home/Hero.webm";
 import ParallaxVideo3 from "../../assets/home/Hero.webm";
 import OurStory from "../../components/OurStory/OurStory";
+import Kitchen from "../../components/Kitchen/Kitchen";
+import Map from "../../components/Map/Map";
+import Testamonials from "../../components/Testamonials/Testamonials";
 
 function Home() {
   const [currentVideo, setCurrentVideo] = useState(ParallaxVideo1);
@@ -62,11 +65,12 @@ function Home() {
       <div ref={sectionRef2}>
         <Parallax videoSource={currentVideo} />
       </div>
-      <div className="box"></div>
+      <Kitchen />
       <div ref={sectionRef3}>
         <Parallax videoSource={currentVideo} />
       </div>
-      <div className="box"></div>
+      <Map />
+      <Testamonials />
     </div>
   );
 }
