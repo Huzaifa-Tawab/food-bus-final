@@ -13,7 +13,7 @@ width: 100vw;
     justify-content: center;
 }
 .OurStory-content{
-    background: url("../../assets/ourstory/background.jpg");
+    background: url("./background.jpg");
     background: #fffcfc;
     background-size: contain;
     font-family: Abril Fatface,serif;

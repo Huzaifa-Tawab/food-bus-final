@@ -9,6 +9,8 @@ function OurStory() {
       </div>    
       <div className="OurStory-content"> 
         <div className="OurStory-content-card">
+         
+        
 
         </div>
         <div className="OurStory-content-card reverse">
