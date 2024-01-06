@@ -2,10 +2,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import Parallax from "../../components/Parallax/Parallax";
 import "./home.css";
-import Hero from "../../assets/home/Hero.webm";
+import HeroMob from "../../assets/home/Hero-M.webm";
 import ParallaxVideo1 from "../../assets/home/Hero.webm";
 import ParallaxVideo2 from "../../assets/home/Hero.webm";
 import ParallaxVideo3 from "../../assets/home/Hero.webm";
+import OurStory from "../../components/OurStory/OurStory";
 
 function Home() {
   const [currentVideo, setCurrentVideo] = useState(ParallaxVideo1);
@@ -19,7 +20,11 @@ function Home() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             if (entry.target === sectionRef1.current) {
-              setCurrentVideo(ParallaxVideo1);
+              if (window.innerWidth < 700) {
+                setCurrentVideo(HeroMob);
+              } else {
+                setCurrentVideo(ParallaxVideo1);
+              }
             } else if (entry.target === sectionRef2.current) {
               setCurrentVideo(ParallaxVideo2);
             } else if (entry.target === sectionRef3.current) {
@@ -50,14 +55,10 @@ function Home() {
 
   return (
     <div className="Home">
-      <br />
-      <br />
-      <br />
-      <br />
       <div ref={sectionRef1}>
         <Parallax videoSource={currentVideo} />
       </div>
-      <div className="box"></div>
+      <OurStory />
       <div ref={sectionRef2}>
         <Parallax videoSource={currentVideo} />
       </div>

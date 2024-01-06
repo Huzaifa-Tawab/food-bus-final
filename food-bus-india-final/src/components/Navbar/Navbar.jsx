@@ -31,7 +31,7 @@ const Navbar = ({ onHide, isSidebarOpen, onToggleSidebar }) => {
   }, [prevScrollPos]);
 
   const navbarClasses = `navbar ${isSidebarOpen ? "open" : ""} ${
-    visible ? "visible" : ""
+    visible ? "visible" : "none"
   }`;
 
   return (

@@ -15,6 +15,33 @@ function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
 
+  const ScrollTracker = () => {
+    useEffect(() => {
+      // Function to handle scroll events
+      const handleScroll = () => {
+        // Get the scroll position
+        const scrollPosition = window.scrollY;
+        console.log("Scroll Position:", scrollPosition);
+        const isScrollingDown = currentScrollPos > prevScrollPos;
+
+        // Update the state based on the scroll direction
+        setNavbarVisible(!isScrollingDown);
+
+        // Update the previous scroll position
+        setPrevScrollPos(currentScrollPos);
+        // You can perform additional actions based on the scroll position
+      };
+
+      // Add the scroll event listener when the component mounts
+      window.addEventListener("scroll", handleScroll);
+
+      // Remove the event listener when the component unmounts
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []); // Empty dependency array ensures the effect runs only once when the component mounts
+  };
+
   const hideNavbar = () => {
     setNavbarVisible(false);
   };
@@ -37,6 +64,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollTracker />
       {showLoader ? (
         <div className="loader-container">
           <img src={LoaderGif} alt="Loader" />

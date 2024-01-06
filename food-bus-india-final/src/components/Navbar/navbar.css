@@ -7,18 +7,38 @@
   background: url("./Nav-bg.jpg");
   color: white;
   transition: transform 0.3s ease;
-  height: 100px;
+  height: 10vh;
   position: fixed;
   width: 100vw;
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* .none {
+  display: none;
+} */
+.navbar {
+  a {
+    border-radius: 12px;
+    padding: 10px 20px;
+  }
+  a.active {
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+    font-weight: 800;
+
+    border-radius: 12px;
+    padding: 10px 20px;
+  }
 }
 
 .Nav-logo {
   img {
     position: relative;
-    height: 120px;
+    height: 10vh;
     rotate: -16deg;
     top: 20px;
-    z-index: 3;
+    z-index: 15;
   }
 }
 
@@ -38,12 +58,9 @@
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.nav-links a.selected {
-  text-decoration: underline;
-}
 /* Add this to your main CSS file or create a new one */
 
 @keyframes MoviingBuss {
@@ -57,9 +74,9 @@
 }
 
 .Nav-Bus {
-  top: 3px;
+  top: 0px;
 
-  height: 100px; /* Set your desired height */
+  height: 10vh; /* Set your desired height */
 
   position: fixed;
   left: calc(100% - 120px);
@@ -74,6 +91,7 @@
     display: none;
   }
 }
+
 /* Sidebar Styles */
 @media (max-width: 768px) {
   .navbar {
@@ -86,10 +104,11 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 12vh;
     left: 0;
     width: 100%;
-    background-color: #333;
+    height: 88vh;
+    background-color: rgb(27, 37, 126);
     transform: translateX(-100%);
     transition: transform 0.3s ease;
   }
@@ -99,13 +118,28 @@
   }
 
   .nav-links a {
-    margin: 10px 15px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    width: 200px;
+
+    text-align: center;
   }
 
   .hamburger {
     cursor: pointer;
     font-size: 1.5em;
     margin-right: 15px;
-    display: block;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    border-radius: 100px;
+    background: red;
+    outline: none;
+    border: none;
+
+    width: 7vh;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
   }
 }

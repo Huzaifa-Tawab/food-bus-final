@@ -32,10 +32,10 @@ const Parallax = ({ videoSource }) => {
 
   const videoStyle = {
     width: "100%",
-    height: "calc(100% - 100px)",
+    height: "calc(100% - 10vh)",
     objectFit: "cover",
     position: "fixed",
-    top: "100px",
+    top: "10vh",
     left: 0,
     zIndex: -1,
     opacity: isVideoReady ? 1 : 0, // Show the video when it's ready
