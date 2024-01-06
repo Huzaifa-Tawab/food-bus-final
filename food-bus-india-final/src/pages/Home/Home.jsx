@@ -72,7 +72,6 @@ function Home() {
       </div>
       <Map />
       <Testamonials />
-      <Footer />
     </div>
   );
 }
