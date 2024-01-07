@@ -1,24 +1,92 @@
-.OurStory{
-width: 100vw;
+.OurStory {
+  width: 100vw;
 }
-.OurStory-hero{
-    height: 100vh;
-    width: 100vw;
-    background: url("./OurStoryPage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.OurStory-hero {
+  height: 100vh;
+  width: 100vw;
+  background: url("./OurStoryPage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.OurStory-content{
-    background: url("./background.jpg");
-    background: #fffcfc;
-    background-size: contain;
-    font-family: Abril Fatface,serif;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 0;
+.OurStory-content {
+  background: url("./background.jpg");
+  background-size: contain;
+  padding: 5vh 5vw;
+  width: 90vw;
+}
+.OurStory-content-card {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -30px;
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  background-color: #ffffff68;
+  border-radius: 16px;
+  margin: 5vh 0px;
+  padding: 2.5vw;
+  transition: 300ms linear;
 
+  h1 {
+    color: rgb(27, 37, 126);
+    /* color:  rgb(219, 43, 43); */
+  }
+  p {
+    color: black;
+  }
+}
+.OurStory-content-card:hover {
+  background: #ffffff90;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.reverse {
+  flex-direction: row-reverse;
+
+  h1 {
+    color: rgb(219, 43, 43);
+  }
+}
+.OurStory-content-card-text {
+  width: 40vw;
+}
+.OurStory-content-card-img {
+  width: 30vw;
+  img {
+    width: 100%;
+  }
+}
+@media (max-width: 786px) {
+  h1 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+    width: 80vw;
+  }
+  .OurStory-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .OurStory-content-card {
+    background: #ffff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .OurStory-content-card:hover {
+    background: #ffff;
+  }
+  .OurStory-content-card-img {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .OurStory-content-card-text {
+    width: 100%;
+  }
 }

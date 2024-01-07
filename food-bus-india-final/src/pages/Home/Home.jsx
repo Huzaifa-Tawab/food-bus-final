@@ -11,6 +11,7 @@ import Kitchen from "../../components/Kitchen/Kitchen";
 import Map from "../../components/Map/Map";
 import Testamonials from "../../components/Testamonials/Testamonials";
 import VideoPlayer from "../../components/VideoPlayer/Videoplayer";
+import SocialBar from "../../components/SocialBar/SocialBar";
 
 function Home() {
   const [currentVideo, setCurrentVideo] = useState(ParallaxVideo1);
@@ -59,6 +60,7 @@ function Home() {
 
   return (
     <div className="Home">
+      <SocialBar />
       <div ref={sectionRef1}>
         <Parallax videoSource={currentVideo} />
       </div>

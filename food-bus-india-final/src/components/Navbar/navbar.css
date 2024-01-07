@@ -49,6 +49,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 15;
 }
 
 .nav-links a {
