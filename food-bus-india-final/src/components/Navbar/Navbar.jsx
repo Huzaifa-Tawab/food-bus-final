@@ -40,19 +40,40 @@ const Navbar = ({ onHide, isSidebarOpen, onToggleSidebar }) => {
         <img src={Logo} alt="logo" />
       </div>
       <div className={`nav-links ${isSidebarOpen ? "open" : ""}`}>
-        <NavLink to="/" exact activeClassName="selected">
+        <NavLink
+          to="/"
+          exact
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
           Home
         </NavLink>
-        <NavLink to="/ourstory" activeClassName="selected">
+        <NavLink
+          to="/ourstory"
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
           Our Story
         </NavLink>
-        <NavLink to="/franchise" activeClassName="selected">
+        <NavLink
+          to="/franchise"
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
           Franchise
         </NavLink>
-        <NavLink to="/menu" activeClassName="selected">
+        <NavLink
+          to="/menu"
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
           Menu
         </NavLink>
-        <NavLink to="/contact" activeClassName="selected">
+        <NavLink
+          to="/contact"
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
           Contact
         </NavLink>
       </div>

@@ -1,0 +1,150 @@
+/* Franchise Form Styles */
+
+.Franchise-Form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 16vh 5vw 0 5vw;
+  margin: 0 20vw;
+  background: #0000002f;
+}
+
+.Franchise-Form label {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Franchise-Form h1,
+.Franchise-Form p {
+  color: #000000;
+}
+
+/* Fields and Inputs */
+
+.franchise-field-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.franchise-field,
+.franchise-field-select {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.franchise-field input,
+.franchise-field-select select {
+  font-size: 18px;
+  padding: 5px 10px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #c4d1eb;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 0px #e2e2e2;
+  transition: 0.3s ease;
+}
+
+.franchise-field input:focus,
+.franchise-field-select select:focus {
+  background: #ffffff;
+  border: 1px solid #5a7ec7;
+  border-radius: 10px;
+}
+
+.franchise-field input::placeholder {
+  color: #dddddd;
+}
+
+/* Error Message */
+
+.error {
+  color: red;
+}
+
+/* Submit Button */
+
+.franchise-field-submit {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.franchise-field-submit button {
+  width: 80%;
+  background-color: #db2b2b;
+  border-radius: 6px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+}
+
+.franchise-field-submit button:disabled {
+  cursor: default;
+}
+
+.franchise-field-submit button:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 786px) {
+  .Franchise-Form {
+    background: #e2e2e2;
+    padding: 0;
+    margin: 0;
+    padding-top: 16vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .franchise-field-group {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .franchise-field-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    select {
+      width: 90%;
+      padding: 5px 10px;
+      outline: none;
+      background: #ffffff;
+      color: #000000;
+      border: 1px solid #c4d1eb;
+      border-radius: 5px;
+      box-shadow: 3px 3px 2px 0px #e2e2e2;
+    }
+  }
+
+  .franchise-field-submit button {
+    width: 50%;
+  }
+}
