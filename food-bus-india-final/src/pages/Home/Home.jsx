@@ -11,6 +11,7 @@ import Kitchen from "../../components/Kitchen/Kitchen";
 import Map from "../../components/Map/Map";
 import Testamonials from "../../components/Testamonials/Testamonials";
 import Footer from "../../components/Footer/Footer";
+import VideoPlayer from "../../components/VideoPlayer/Videoplayer";
 
 function Home() {
   const [currentVideo, setCurrentVideo] = useState(ParallaxVideo1);
@@ -72,6 +73,7 @@ function Home() {
       </div>
       <Map />
       <Testamonials />
+      <VideoPlayer />
     </div>
   );
 }
