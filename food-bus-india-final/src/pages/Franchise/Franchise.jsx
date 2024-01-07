@@ -92,6 +92,61 @@ function Franchise() {
 
   return (
     <div className="Franchise">
+      <div className="Frannchise-hero"></div>
+      <div className="Franchise-cards">
+        <div class="card">
+          <div class="content">
+            <div class="front">
+              <h1>Standardization and predictability</h1>
+            </div>
+            <div class="back">
+              <p>
+                Food Bus of India's unique model ensures extreme standardization
+                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="front">
+              <h1>Standardization and predictability</h1>
+            </div>
+            <div class="back">
+              <p>
+                Food Bus of India's unique model ensures extreme standardization
+                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="front">
+              <h1>Standardization and predictability</h1>
+            </div>
+            <div class="back">
+              <p>
+                Food Bus of India's unique model ensures extreme standardization
+                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="front">
+              <h1>Standardization and predictability</h1>
+            </div>
+            <div class="back">
+              <p>
+                Food Bus of India's unique model ensures extreme standardization
+                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Franchise-Form">
         <h1> Be Your Own Boss</h1>
         <p>
