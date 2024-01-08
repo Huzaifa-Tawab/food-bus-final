@@ -13,7 +13,7 @@
 .video-wrapper {
   video {
     height: 80vh;
-
+   
     border-radius: 16px;
   }
 }
