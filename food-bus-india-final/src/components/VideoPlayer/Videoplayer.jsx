@@ -1,10 +1,14 @@
 import React, { useState, useRef } from "react";
 import "./videoplayer.css";
-import Reel from "../../assets/home/Hero-M.webm";
-import secvideo from "../../assets/home/fbiscroll.mp4"
+// import Reel from "../../assets/home/fbicom.mp4";
+import secvideo from "../../assets/home/fbiscroll.mp4";
+import newbuss from "../../assets/home/newbuss.mp4";
+import newgir from "../../assets/home/girlvid.mp4";
+import insta from "../../assets/home/insta3.mp4";
+import inst from "../../assets/home/insta2.mp4";
 
 const VideoPlayer = () => {
-  const videos = [Reel, secvideo, Reel, Reel, Reel, Reel, Reel];
+  const videos = [secvideo, inst, insta, newbuss, newgir];
   const [currentVideo, setCurrentVideo] = useState(null);
   const videoRefs = useRef(
     Array.from({ length: videos.length }, () => React.createRef())
