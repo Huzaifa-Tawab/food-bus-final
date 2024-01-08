@@ -1,5 +1,9 @@
 import React from "react";
 import Dining from "../../assets/ourstory/image1.jpg";
+import burger from "../../assets/ourstory/image2.jpg";
+import image3rd from "../../assets/ourstory/pizza3.png";
+
+import bussimage from "../../assets/ourstory/imgneww.png";
 import "./ourstory.css";
 function OurStory() {
   return (
@@ -28,7 +32,7 @@ function OurStory() {
             </p>
           </div>
           <div className="OurStory-content-card-img">
-            <img src={Dining} alt="Dining" />
+            <img src={burger} alt="Dining" />
           </div>
         </div>
         <div className="OurStory-content-card ">
@@ -41,7 +45,7 @@ function OurStory() {
             </p>
           </div>
           <div className="OurStory-content-card-img">
-            <img src={Dining} alt="Dining" />
+            <img src={image3rd} alt="Dining" />
           </div>
         </div>
         <div className="OurStory-content-card reverse">
@@ -54,7 +58,7 @@ function OurStory() {
             </p>
           </div>
           <div className="OurStory-content-card-img">
-            <img src={Dining} alt="Dining" />
+            <img src={bussimage} alt="Dining" />
           </div>
         </div>
       </div>

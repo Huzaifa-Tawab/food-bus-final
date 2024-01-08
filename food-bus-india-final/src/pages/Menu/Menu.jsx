@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.css";
-import DesktopMenu from "../../assets/menu/Menu-D.png";
+import DesktopMenu from "../../assets/menu/men.png";
 import MobileMenu1 from "../../assets/menu/Menu-M1.png";
 import MobileMenu2 from "../../assets/menu/Menu-M2.png";
 import MobileMenu3 from "../../assets/menu/Menu-M3.png";

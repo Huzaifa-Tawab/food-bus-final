@@ -1,9 +1,10 @@
 import React, { useState, useRef } from "react";
 import "./videoplayer.css";
 import Reel from "../../assets/home/Hero-M.webm";
+import secvideo from "../../assets/home/fbiscroll.mp4"
 
 const VideoPlayer = () => {
-  const videos = [Reel, Reel, Reel, Reel, Reel, Reel, Reel];
+  const videos = [Reel, secvideo, Reel, Reel, Reel, Reel, Reel];
   const [currentVideo, setCurrentVideo] = useState(null);
   const videoRefs = useRef(
     Array.from({ length: videos.length }, () => React.createRef())
@@ -34,7 +35,9 @@ const VideoPlayer = () => {
         >
           <video ref={videoRefs.current[index]} controls>
             <source src={video} type="video/webm" />
+            
           </video>
+          
         </div>
       ))}
     </div>
