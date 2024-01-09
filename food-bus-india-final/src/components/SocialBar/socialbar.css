@@ -22,9 +22,12 @@
   align-items: center;
 }
 
-.social-bar img {
+.social-bar img{
   width: 30px;
   height: 30px;
   margin-right: 10px;
   border-radius: 50%;
+}
+.img{
+  font-size: 30px;
 }

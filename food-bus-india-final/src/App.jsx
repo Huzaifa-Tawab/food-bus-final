@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import OurStory from "./pages/OurStory/OurStory";
 import Franchise from "./pages/Franchise/Franchise";
 import Menu from "./pages/Menu/Menu";
+import Faq from "./pages/FAQ/Faq";
 import Contact from "./pages/Contact/Contact";
 import LoaderGif from "./assets/loader.gif";
 import Footer from "./components/Footer/Footer";
@@ -84,6 +85,7 @@ function App() {
             <Route path="/ourstory" element={<OurStory />} />
             <Route path="/franchise" element={<Franchise />} />
             <Route path="/menu" element={<Menu />} />
+            <Route path="/faq" element={<Faq />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />

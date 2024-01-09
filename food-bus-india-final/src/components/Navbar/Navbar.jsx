@@ -70,6 +70,13 @@ const Navbar = ({ onHide, isSidebarOpen, onToggleSidebar }) => {
           Menu
         </NavLink>
         <NavLink
+          to="/faq"
+          activeClassName="selected"
+          onClick={onToggleSidebar}
+        >
+         Faq
+        </NavLink>
+        <NavLink
           to="/contact"
           activeClassName="selected"
           onClick={onToggleSidebar}

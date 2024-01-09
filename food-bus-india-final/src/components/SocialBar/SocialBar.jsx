@@ -2,6 +2,11 @@
 
 import React from "react";
 import "./socialbar.css";
+import { FaYoutube } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+
 
 const SocialBar = () => {
   return (
@@ -11,24 +16,25 @@ const SocialBar = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="youtube-icon.png" alt="YouTube" />
+        <FaYoutube className="img"/>
       </a>
+      
       <a
         href="https://www.pinterest.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="pinterest-icon.png" alt="Pinterest" />
+        <FaPinterest className="img" />
       </a>
       <a
         href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="instagram-icon.png" alt="Instagram" />
+        <FaInstagram className="img" />
       </a>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-        <img src="twitter-icon.png" alt="Twitter" />
+      <FaTwitter className="img" />
       </a>
     </div>
   );
