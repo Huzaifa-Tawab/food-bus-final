@@ -9,11 +9,11 @@ function Contact() {
     <h1>Got Suggestions ?  <br></br>We Here ya...</h1>
     <div className="cntct-text">
       <div className="contct-email">
-        <img src={mail}></img>
+        <img className="magphn-icon"  src={mail}></img>
         <h2>hello@fbi.com</h2>
       </div>
       <div className="phone-email">
-        <img src={phone}></img>
+        <img className="magphn-icon"  src={phone}></img>
         <h2>000000000000</h2>
       </div>
     </div>
