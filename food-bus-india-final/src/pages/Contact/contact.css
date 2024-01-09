@@ -1,0 +1,105 @@
+.contctback{
+    background: url("./contactbg.png");
+    background-size: cover;
+    height: 130vh;
+}
+.contct-content-box{
+    background: #00000080;
+    border-radius: 20px;
+    height: 73vh;
+    margin-left: 20%;
+    position: relative;
+    text-align: center;
+    top: 53vh;
+    width: 46.1vw;
+}
+.contct-content-box h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 60px;
+}
+img{
+    width: 50px;
+    height: 30px;
+}
+.cntct-text{
+    background: #fff;
+    border-radius: 15px;
+    height: 20vh;
+    margin-left: 22%;
+    margin-top: 60px;
+    opacity: 70%;
+    padding: 2%;
+    width: 25vw;
+}
+.contct-email{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contct-email h2{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.phone-email{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone-email h2{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: 500;
+}
+@media (max-width: 786px) {
+    .contct-content-box  {
+        width: 70vw;
+        height: 40vh;
+        background: #00000080;
+     border-radius: 20px;
+     margin-left: 15.5%;
+     position: relative;
+     text-align: center;
+      top: 18vh;
+    }
+    .contct-content-box h1{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 50px;
+        padding-top:15px;
+    }
+    .contctback{
+        background-size:cover;
+        background-position: center center;
+        width:100%;
+        height: 70vh;
+        background-repeat: no-repeat;
+    }
+    .cntct-text{
+        background: #fff;
+        border-radius: 15px;
+        height: 20vh;
+        margin-left: 12%;
+        margin-top: 25px;
+       
+        width: 50vw;
+    }
+    .contct-email h2{
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    .phone-email h2{
+        padding-top: 30px;
+        font-size: 1.5rem;
+    }
+    img{
+        padding-top:30px ;
+    }
+
+}
+
+
