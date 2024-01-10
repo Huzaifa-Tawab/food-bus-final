@@ -27,8 +27,7 @@ function Home() {
             if (entry.target === sectionRef1.current) {
               if (window.innerWidth < 700) {
                 setCurrentVideo(HeroMob);
-              } 
-              else {
+              } else {
                 setCurrentVideo(ParallaxVideo1);
               }
             } else if (entry.target === sectionRef2.current) {

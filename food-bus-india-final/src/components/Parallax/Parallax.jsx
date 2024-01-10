@@ -57,10 +57,6 @@ const Parallax = ({ videoSource }) => {
         muted
         style={videoStyle}
       ></video>
-      {/* Your content goes here */}
-      <div className="content" style={contentStyle}>
-        {/* Your content goes here */}
-      </div>
     </div>
   );
 };
