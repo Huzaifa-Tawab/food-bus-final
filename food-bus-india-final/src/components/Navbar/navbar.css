@@ -90,6 +90,7 @@
 @media (min-width: 768px) {
   .hamburger {
     display: none;
+    
   }
 }
 
@@ -97,6 +98,7 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
+    
   }
   .Nav-Bus {
     display: none;
@@ -137,6 +139,7 @@
     background: red;
     outline: none;
     border: none;
+    color: white;
 
     width: 7vh;
     height: 7vh;
