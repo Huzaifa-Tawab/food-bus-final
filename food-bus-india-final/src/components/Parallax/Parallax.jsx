@@ -31,7 +31,7 @@ const Parallax = ({ videoSource }) => {
   };
 
   const videoStyle = {
-    width: "100%",
+    width: "100vw",
     height: "calc(100% - 10vh)",
     objectFit: "cover",
     position: "fixed",
