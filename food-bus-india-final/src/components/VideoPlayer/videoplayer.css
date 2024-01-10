@@ -37,3 +37,25 @@
   scrollbar-width: 2px;
   scrollbar-color: #3498db #ecf0f1;
 }
+@media (max-width: 786px) {
+
+  .video-wrapper {
+    video {
+      height: 30vh;
+     
+      border-radius: 16px;
+    }
+  }
+  .video-player-container {
+    display: flex;
+    flex: 0 0 25%;
+  
+    align-items: center;
+    height: 40vh;
+    background: red;
+    overflow-x: auto;
+  
+    gap: 20px;
+    padding: 0px 20px;
+  }
+}
