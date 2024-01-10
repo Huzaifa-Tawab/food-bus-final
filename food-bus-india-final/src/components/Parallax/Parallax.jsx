@@ -31,7 +31,7 @@ const Parallax = ({ videoSource }) => {
   };
 
   const videoStyle = {
-    width: "100%",
+    width: "100vw",
     height: "calc(100% - 10vh)",
     objectFit: "cover",
     position: "fixed",
@@ -57,10 +57,6 @@ const Parallax = ({ videoSource }) => {
         muted
         style={videoStyle}
       ></video>
-      {/* Your content goes here */}
-      <div className="content" style={contentStyle}>
-        {/* Your content goes here */}
-      </div>
     </div>
   );
 };

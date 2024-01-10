@@ -1,0 +1,50 @@
+.Faq-main {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.Faq-main-heading {
+  color: #000;
+  padding: 50px;
+}
+.Faq-content {
+  background-color: #00000044;
+  padding: 20px 40px;
+  border-radius: 16px;
+}
+.Faq-single {
+  button {
+    background-color: #fff;
+    color: #000;
+
+    border: none;
+    padding: 0.5rem 1rem;
+
+    cursor: pointer;
+    width: 400px;
+    border-bottom: 2px solid black;
+    transition: 300ms linear;
+  }
+
+  button:hover {
+    background-color: #dbdbdb;
+  }
+
+  p {
+    width: 400px;
+    background-color: #dbdbdb;
+
+    transition: 300ms linear;
+    margin-top: 0;
+    /* padding: 1rem; */
+    font-size: 10px;
+    color: black;
+  }
+}
