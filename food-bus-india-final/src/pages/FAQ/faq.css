@@ -80,8 +80,9 @@
   }
   .Faq-content {
     background-color: #00000044;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 16px;
+    width: 380px;
   }
   .Faq-single {
     button {
@@ -92,7 +93,7 @@
       padding: 0.5rem 1rem;
       font-size: 1.2rem;
       cursor: pointer;
-      width: 400px;
+      width: 370px;
       border-bottom: 2px solid #E5E7EB;
       transition: 300ms linear;
 
@@ -103,7 +104,7 @@
     }
   
     p {
-      width: 66vw;
+      width: 322px;
       background-color: #dbdbdb;
   
       transition: 300ms linear;
@@ -111,7 +112,7 @@
       /* padding: 1rem; */
       font-size: 1rem;
       color: black;
-      padding-right: 31px;
+      padding-left: 3rem;
       
     }
   }
