@@ -31,7 +31,7 @@ function Footer() {
           <div className="Footer-Middle-UseFull">
             <h3>Useful Links</h3>
             <p>
-              About <br /> News <br />
+              Our Story <br /> Menu <br />
               Partners <br />
               Team <br />
               Menu <br />

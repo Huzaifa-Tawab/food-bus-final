@@ -159,7 +159,7 @@
   width: 100%;
   background: red;
 
-  color: blue;
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -179,13 +179,30 @@
 }
 .bluee{
   background: blue;
-  color: red;
+  color: white;
 
 }
 .bluees{
   background: red;
   color: white;
 }
+.Frannchise-hero{
+  width: 55vw;
+}
+.fran{
+  width: 55vw;
+}
+.Frannchise-hero{
+  width: 55vw;
+
+  .fran{
+    width: 55vw;
+    margin-left: 17vw;
+    margin-bottom: 15vh;
+
+  }
+}
+
 /* Responsive Styles */
 
 @media (max-width: 786px) {
@@ -233,7 +250,7 @@
       box-shadow: 3px 3px 2px 0px #e2e2e2;
     }
   }
-
+ 
   .franchise-field-submit button {
     width: 50%;
   }
@@ -263,6 +280,7 @@
   position: relative;
   
 }
+
 .about-start{
  
   display: flex;
@@ -278,6 +296,7 @@
     font-family: Cormorant Infant,serif;
     font-weight: 700;
 }
+
 @media (max-width: 786px) {
   .about-start h1{
     font-size: 20px;
@@ -305,6 +324,24 @@
     height: 250px;
   
     perspective: 500px;
+  }
+  .fran{
+    width: 100vw;
+    margin-left: 17vw;
+    margin-bottom: 0vh;
+    margin-top: 10vh;
+  
+  }
+  .Frannchise-hero{
+    /* width: 80vw; */
+
+    .fran{
+      width: 70vw;
+      margin-left: 10vw;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+
+    }
   }
 }
 

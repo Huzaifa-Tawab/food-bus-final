@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import "./franchise.css";
+import franch from "../../assets/kitchen/franchhero.jpg";
 
 function Franchise() {
   const [formData, setFormData] = useState({
@@ -92,7 +93,9 @@ function Franchise() {
 
   return (
     <div className="Franchise">
-      <div className="Frannchise-hero"></div>
+      <div className="Frannchise-hero">
+        <img className="fran"src={franch}></img>
+      </div>
       <div className="Franchise-cards">
         <div class="card">
           <div class="content">
