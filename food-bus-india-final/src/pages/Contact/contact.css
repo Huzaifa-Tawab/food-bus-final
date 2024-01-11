@@ -64,7 +64,7 @@
         width: 70vw;
         height: 40vh;
         background: #00000080;
-     border-radius: 10px;
+     border-radius: 20px;
      margin-left: 15.5%;
      position: relative;
      text-align: center;
@@ -88,7 +88,7 @@
         border-radius: 15px;
         height: 20vh;
         margin-left: 12%;
-        margin-top: 20px;
+        margin-top: 10px;
        
         width: 50vw;
     }
