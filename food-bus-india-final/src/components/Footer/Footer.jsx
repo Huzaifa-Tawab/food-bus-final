@@ -30,13 +30,14 @@ function Footer() {
           </div>
           <div className="Footer-Middle-UseFull">
             <h3>Useful Links</h3>
-            <p>
-              Our Story <br /> Menu <br />
-              Partners <br />
-              Team <br />
-              Menu <br />
-              Contact
-            </p>
+            <a href="/ourstory">
+              <p className="points">Our Story </p></a>
+               
+              <a href="/menu"> <p className="points">Menu</p></a>
+              <a href="/franchise"><p className="points">Franchise</p></a>
+              <a href="/faq"><p className="points">Faq </p></a>
+              <a href="/contact"><p className="points">Contact</p></a>
+              
           </div>
           <div className="Footer-Middle-Help">
             <h3>Help?</h3>

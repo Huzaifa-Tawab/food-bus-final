@@ -325,19 +325,13 @@
   
     perspective: 500px;
   }
-  .fran{
-    width: 100vw;
-    margin-left: 17vw;
-    margin-bottom: 0vh;
-    margin-top: 10vh;
   
-  }
   .Frannchise-hero{
     /* width: 80vw; */
 
     .fran{
-      width: 70vw;
-      margin-left: 10vw;
+      width: 60vw;
+      margin-left: 15vw;
     margin-bottom: 2vh;
     margin-top: 4vh;
 
