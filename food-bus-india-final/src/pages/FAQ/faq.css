@@ -104,13 +104,13 @@
     }
   
     p {
-      width: 66.5vw;
+      width: 66vw;
       background-color: #dbdbdb;
   
       transition: 300ms linear;
       margin-top: 0;
       /* padding: 1rem; */
-      font-size: 1rem;
+      font-size: 0.8rem;
       color: black;
       padding-left: 3rem;
       
