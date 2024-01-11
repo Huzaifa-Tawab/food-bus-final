@@ -32,9 +32,13 @@
   h1 {
     color: rgb(27, 37, 126);
     /* color:  rgb(219, 43, 43); */
+    font-family:Cormorant Infant,serif ;
+    font-weight: 700;
   }
   p {
     color: black;
+    font-family: Josefin Sans,serif;
+    font-weight: 400;
   }
 }
 .OurStory-content-card:hover {

@@ -26,7 +26,15 @@
 .Franchise-Form h1,
 .Franchise-Form p {
   color: #000000;
+  font-family: Cormorant Infant,serif;
+  font-weight: 700;
 }
+.Franchise-Form p{
+  font-family: Josefin Sans,serif;
+  font-weight: 400;
+}
+  
+
 
 /* Fields and Inputs */
 
@@ -101,6 +109,8 @@
   transform: translateZ(0);
   transition: all 0.2s, box-shadow 0.08s ease-in;
   user-select: none;
+  font-family: Josefin Sans,serif;
+  font-weight: 600;
 }
 
 .franchise-field-submit button:disabled {
@@ -156,12 +166,16 @@
   justify-content: center;
   border-radius: 5px;
   backface-visibility: hidden;
+  font-family: Cormorant Infant,serif;
+  font-weight: 700;
 }
 
 .back {
   background: #db2b2b;
   color: white;
   transform: rotateY(180deg);
+  font-family: Josefin Sans,serif;
+  font-weight: 400;
 }
 /* Responsive Styles */
 
@@ -174,6 +188,16 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .Franchise-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+    
   }
 
   .franchise-field-group {
@@ -242,6 +266,8 @@
     position: relative;
     top: 50px;
     margin-bottom: 60px;
+    font-family: Cormorant Infant,serif;
+    font-weight: 700;
 }
 @media (max-width: 786px) {
   .about-start h1{
@@ -260,6 +286,16 @@
     margin-bottom: 20px;
     padding-bottom: 11px;
     
+  }
+  .back p{
+    font-size :1rem;
+    width: 60vw;
+  }
+  .card {
+    width: 250px;
+    height: 250px;
+  
+    perspective: 500px;
   }
 }
 

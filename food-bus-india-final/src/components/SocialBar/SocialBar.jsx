@@ -16,7 +16,7 @@ const SocialBar = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaYoutube className="img"/>
+        <FaYoutube className="img you"/>
       </a>
       
       <a
@@ -24,17 +24,17 @@ const SocialBar = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaPinterest className="img" />
+        <FaPinterest className="img pin" />
       </a>
       <a
         href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaInstagram className="img" />
+        <FaInstagram className="img inst" />
       </a>
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-      <FaTwitter className="img" />
+      <FaTwitter className="img twi" />
       </a>
     </div>
   );
