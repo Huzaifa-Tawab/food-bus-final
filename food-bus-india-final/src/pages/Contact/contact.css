@@ -94,14 +94,15 @@
     }
     .contct-email h2{
         padding-top: 30px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .phone-email h2{
         padding-top: 30px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .magphn-icon {
         padding-top:30px ;
+        font-size: 1.2rem;
     }
 
 }
