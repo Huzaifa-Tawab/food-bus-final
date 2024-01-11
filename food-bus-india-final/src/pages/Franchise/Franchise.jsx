@@ -96,10 +96,23 @@ function Franchise() {
       <div className="Franchise-cards">
         <div class="card">
           <div class="content">
-            <div class="front">
+            <div class="front ">
               <h1>Standardization and predictability</h1>
             </div>
             <div class="back">
+              <p>
+                Food Bus of India's unique model ensures extreme standardization
+                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="front bluee">
+              <h1>Standardization and predictability</h1>
+            </div>
+            <div class="back bluees">
               <p>
                 Food Bus of India's unique model ensures extreme standardization
                 in both operating expenses (OPEX) and capital expenses (CAPEX)
@@ -122,23 +135,10 @@ function Franchise() {
         </div>
         <div class="card">
           <div class="content">
-            <div class="front">
+            <div class="front bluee">
               <h1>Standardization and predictability</h1>
             </div>
-            <div class="back">
-              <p>
-                Food Bus of India's unique model ensures extreme standardization
-                in both operating expenses (OPEX) and capital expenses (CAPEX)
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <div class="front">
-              <h1>Standardization and predictability</h1>
-            </div>
-            <div class="back">
+            <div class="back bluees">
               <p>
                 Food Bus of India's unique model ensures extreme standardization
                 in both operating expenses (OPEX) and capital expenses (CAPEX)

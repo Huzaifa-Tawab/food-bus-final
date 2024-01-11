@@ -157,9 +157,9 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: white;
+  background: red;
 
-  color: #db2b2b;
+  color: blue;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -171,11 +171,20 @@
 }
 
 .back {
-  background: #db2b2b;
+  background: blue;
   color: white;
   transform: rotateY(180deg);
   font-family: Josefin Sans,serif;
-  font-weight: 400;
+  font-weight: 500;
+}
+.bluee{
+  background: blue;
+  color: red;
+
+}
+.bluees{
+  background: red;
+  color: white;
 }
 /* Responsive Styles */
 
