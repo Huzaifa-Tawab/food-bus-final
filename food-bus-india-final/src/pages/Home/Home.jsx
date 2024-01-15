@@ -18,7 +18,6 @@ function Home() {
   const [currentVideo, setCurrentVideo] = useState(ParallaxVideo1);
   const sectionRef1 = useRef(null);
   const sectionRef2 = useRef(null);
-  const sectionRef3 = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,18 +36,12 @@ function Home() {
               } else {
                 setCurrentVideo(ParallaxVideo2);
               }
-            } else if (entry.target === sectionRef3.current) {
-              if (window.innerWidth < 700) {
-                setCurrentVideo(HeroMob);
-              } else {
-                setCurrentVideo(ParallaxVideo3);
-              }
             }
           }
         });
       },
       {
-        threshold: 0.5,
+        threshold: 0,
       }
     );
 
@@ -57,9 +50,6 @@ function Home() {
     }
     if (sectionRef2.current) {
       observer.observe(sectionRef2.current);
-    }
-    if (sectionRef3.current) {
-      observer.observe(sectionRef3.current);
     }
 
     return () => {
@@ -78,9 +68,7 @@ function Home() {
         <Parallax videoSource={currentVideo} />
       </div>
       <Kitchen />
-      <div ref={sectionRef3}>
-        <Parallax videoSource={currentVideo} />
-      </div>
+
       <Map />
       <Testamonials />
       <VideoPlayer />
