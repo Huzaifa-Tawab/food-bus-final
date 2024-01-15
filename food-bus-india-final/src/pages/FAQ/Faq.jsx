@@ -9,23 +9,28 @@ function Faq() {
 
   const faqs = [
     {
-      question: "What is React?",
-      answer: "React is a JavaScript library for building user interfaces.",
+      question: "Is this a real bus?",
+      answer: "No, It's a stationary double decker bus themed restaurant and does not move.",
     },
     {
-      question: "How do I install React?",
+      question: "Is this a food-truck?",
       answer:
-        'You can install React using npm by running "npm install react react-dom".',
+        'No. Its not. Its a stationary bus-themed fully operational 42 cover restaurant.',
     },
     {
-      question: "What are React hooks?",
+      question: "How many locations are we currently present in?",
       answer:
-        "React hooks are functions that let you use state and other React features in functional components.",
+        "We are currently based out of 4 locations across Delhi including, Lajpat Nagar, North Campus, Rajender Nagar, & South Extension.",
     },
     {
-      question: "Can I use React for mobile app development?",
+      question: "Do you offer vegetarian/vegan/gluten-free options? ",
       answer:
-        "Yes, you can use React Native, a framework for building mobile apps using React and native components.",
+        "Yes, we have a selection of vegetarian, vegan, and gluten-free options available. Please check our menu or ask our staff for details.",
+    },
+    {
+      question: "Do you offer delivery or takeout options? ",
+      answer:
+        "Yes, we provide delivery and takeout services for your convenience. You can place orders through our delivery partners as well.",
     },
   ];
 

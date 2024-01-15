@@ -46,17 +46,19 @@
   h1{
     font-family: Cormorant Infant, serif;
     font-weight: 700;
+    font-size: 1.5rem;
   } 
   p{
     font-family: Josefin Sans,serif;
     font-weight: 400;
+    font-size: 1.1rem;
   }
 }
 .red {
-  background: rgb(219, 43, 43);
+  background:#EF3A3A;
 }
 .blue {
-  background: rgb(27, 37, 126);
+  background: #202B8C;
 }
 @media (max-width: 768px) {
   .Kitchen {
@@ -92,6 +94,8 @@
     width: 40vw;
     h1 {
       font-size: 1rem;
+      line-height: 0.5rem;
+      padding-top: 2vh;
     }
     p {
       font-size: 0.7rem;

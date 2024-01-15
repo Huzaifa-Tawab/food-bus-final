@@ -23,8 +23,8 @@
   margin-bottom: 10px;
 }
 
-.Franchise-Form h1,
-.Franchise-Form p {
+.Franchise-Form >h1,
+.Franchise-Form >p {
   color: #000000;
   font-family: Cormorant Infant,serif;
   font-weight: 700;
@@ -137,7 +137,7 @@
   perspective: 500px;
 }
 
-.content {
+/* .content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -145,19 +145,19 @@
 
   transition: transform 1s;
   transform-style: preserve-3d;
-}
+} */
 
-.card:hover .content {
+/* .card:hover .content {
   transform: rotateY(180deg);
   transition: transform 0.5s;
-}
+} */
 
 .front,
 .back {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: red;
+  /* background: red; */
 
   color: white;
   text-align: center;
@@ -168,16 +168,68 @@
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
   font-weight: 700;
+  
+  p{
+    font-size: 1.3rem;
+     padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 30px; */
+  }
+  
 }
-
-.back {
+.front h1{
+  color: #FFFCFC;
+  
+  line-height: 2rem;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.bluee h1{
+  color:#FFFCFC;
+  line-height: 2rem;
+  text-decoration: underline;
+  text-decoration-color: white;
+  
+  
+}
+.fronts{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background: red; */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  font-family: Cormorant Infant,serif;
+  font-weight: 700;
+  
+  p{
+    font-size: 1.3rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+}
+.bluee{
+  border-radius: 10px;
+  background: #EF3A3A;;
+}
+.front{
+  border-radius: 10px;
+background: #1B257E;
+}
+/* .back {
   background: blue;
   color: white;
   transform: rotateY(180deg);
   font-family: Josefin Sans,serif;
   font-weight: 500;
-}
-.bluee{
+} */
+/* .bluee{
   background: blue;
   color: white;
 
@@ -185,7 +237,7 @@
 .bluees{
   background: red;
   color: white;
-}
+} */
 .Frannchise-hero{
   width: 55vw;
 }
@@ -315,10 +367,10 @@
     padding-bottom: 11px;
     
   }
-  .back p{
+  /* .back p{
     font-size :1rem;
     width: 65vw;
-  }
+  } */
   .card {
     width: 250px;
     height: 250px;
@@ -336,6 +388,18 @@
     margin-top: 4vh;
 
     }
+  }
+  .fronts p{
+    width:60vw;
+    font-size:0.8rem ;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .front p{
+    width:60vw;
+    font-size: 0.8rem;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

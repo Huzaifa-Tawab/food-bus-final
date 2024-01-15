@@ -101,8 +101,7 @@ function Franchise() {
           <div class="content">
             <div class="front ">
               <h1>Standardization and predictability</h1>
-            </div>
-            <div class="back">
+            
               <p>
                 Food Bus of India's unique model ensures extreme standardization
                 in both operating expenses (OPEX) and capital expenses (CAPEX)
@@ -112,13 +111,11 @@ function Franchise() {
         </div>
         <div class="card">
           <div class="content">
-            <div class="front bluee">
-              <h1>Standardization and predictability</h1>
-            </div>
-            <div class="back bluees">
+            <div class="fronts bluee">
+              <h1>Accuracy in projection</h1>
+            
               <p>
-                Food Bus of India's unique model ensures extreme standardization
-                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              Our projections have an exceptional 90% accuracy rate for future predictions and return on investment (ROl).
               </p>
             </div>
           </div>
@@ -126,26 +123,20 @@ function Franchise() {
         <div class="card">
           <div class="content">
             <div class="front">
-              <h1>Standardization and predictability</h1>
-            </div>
-            <div class="back">
+              <h1>Exclusive Territories Franchisees</h1>
+            
               <p>
-                Food Bus of India's unique model ensures extreme standardization
-                in both operating expenses (OPEX) and capital expenses (CAPEX)
+              We secure exclusive rights to operate in specific territories, reducing direct competition and enhancing profitability.
               </p>
             </div>
           </div>
         </div>
         <div class="card">
           <div class="content">
-            <div class="front bluee">
-              <h1>Standardization and predictability</h1>
-            </div>
-            <div class="back bluees">
-              <p>
-                Food Bus of India's unique model ensures extreme standardization
-                in both operating expenses (OPEX) and capital expenses (CAPEX)
-              </p>
+            <div class="fronts bluee">
+              <h1>No active direct competitors</h1>
+           
+              
             </div>
           </div>
         </div>

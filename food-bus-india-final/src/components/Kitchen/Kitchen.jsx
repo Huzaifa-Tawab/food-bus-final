@@ -20,27 +20,25 @@ function Kitchen() {
       </div>
       <div className="Kitchen-facts">
         <div className="Kitchen-fact blue">
-          <h1>1st</h1>
-          <p>India’s first double decker dine in food chain</p>
+          <h1>Customers Served:</h1>
+          <p>Over 193,000 customers have been served at Food Bus of India since our inception.</p>
         </div>
         <div className="Kitchen-fact red">
-          <h1> 200000+</h1>
+          <h1> Local Ingredients:</h1>
           <p>
-            Served over <br /> 200000 <br /> customers
+          70% of our ingredients are locally sourced, supporting community farmers and ensuring freshness.
           </p>
         </div>
         <div className="Kitchen-fact blue">
-          <h1>70+</h1>
+          <h1>Team Members:</h1>
           <p>
-            More than 70 talented chefs and staff to deliver exceptional service
+          Our dedicated team comprises over 70 talented chefs and staff committed to delivering exceptional dining experiences.
           </p>
         </div>
         <div className="Kitchen-fact red">
-          <h1>Affordable</h1>
+          <h1>Cuisine Diversity: </h1>
           <p>
-            Handy <br /> Trendy and 
-            <br /> Affordable <br />
-             menu
+          Offering a menu featuring dishes from different regions of India & worldwide. Its Handy , Trendy and Affordable
           </p>
         </div>
       </div>
