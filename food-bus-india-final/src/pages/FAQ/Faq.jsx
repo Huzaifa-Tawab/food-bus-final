@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./faq.css";
 function Faq() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const toggleAccordion = (index) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));

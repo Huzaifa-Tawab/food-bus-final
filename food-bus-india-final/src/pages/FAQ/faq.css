@@ -1,5 +1,4 @@
 .Faq-main {
-  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,9 +11,9 @@
 }
 .Faq-main-heading {
   color: #000;
-  padding: 50px;
   font-size: 3rem;
   font-family: Cormorant Infant,serif;
+  padding: 50px;
   font-weight: 700;
 }
 .Faq-content {
@@ -26,15 +25,14 @@
   button {
     background-color: #fff;
     color: #000;
-
     border: none;
     padding: 0.5rem 1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     cursor: pointer;
-    width: 50vw;
+    width: 60vw;
     border-bottom: 2px solid #E5E7EB;
     transition: 300ms linear;
-    height: 7vh;
+    height: 10vh;
     font-family: "Josefin Sans";
     font-weight: 500;
   }
@@ -46,7 +44,7 @@
   p {
     
     background-color: #dbdbdb;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: 300ms linear;
     margin-top: 0;
     padding-left: 6rem;
@@ -57,7 +55,7 @@
     /* padding: 1rem; */
     
     color: black;
-    width: 43vw;
+    width: 53vw;
     
   }
 }

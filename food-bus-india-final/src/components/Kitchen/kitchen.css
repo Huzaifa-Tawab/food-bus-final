@@ -11,6 +11,7 @@
     font-size: 2rem;
     font-family: Cormorant Infant, serif;
     font-weight: 700;
+    padding-top: 25px;
   }
 }
 .Kitchen-Flex {
@@ -41,16 +42,17 @@
   height: 20vw;
   width: 20vw;
   border-radius: 100%;
+  padding-bottom: 25px;
 
   h1{
     font-family: Cormorant Infant, serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   } 
   p{
     font-family: Josefin Sans,serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 }
 .red {
