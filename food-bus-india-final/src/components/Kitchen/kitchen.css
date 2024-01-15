@@ -90,15 +90,15 @@
     gap: 20px;
   }
   .Kitchen-fact {
-    height: 40vw;
-    width: 40vw;
+    height: 42vw;
+    width: 42vw;
     h1 {
       font-size: 1rem;
-      line-height: 0.5rem;
+      line-height: 1rem;
       padding-top: 2vh;
     }
     p {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       width: 8rem;
     }
     
