@@ -4,7 +4,7 @@
 
   align-items: center;
   height: 100vh;
-  background: red;
+  background: url(./background.jpg);
   overflow-x: auto;
 
   gap: 20px;

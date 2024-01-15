@@ -1,6 +1,6 @@
 /* Franchise Form Styles */
 .Franchise {
-  padding: 16vw 5vw 0px 5vw;
+  padding: 10vw 5vw 0px 5vw;
 
   background: url("./background.jpg");
   background-repeat: no-repeat;
@@ -8,8 +8,9 @@
   background-position: center;
 }
 .Franchise> h1{
+  font-size: 4rem;
   text-align: center;
-  color: #000000;
+  color: #db2b2b;
 }
 .Franchise-Form {
   display: flex;
@@ -95,6 +96,9 @@
   width: 100%;
   text-align: center;
   padding: 20px 0;
+}
+.form{
+  padding: 5px 60px;
 }
 
 .franchise-field-submit button {
