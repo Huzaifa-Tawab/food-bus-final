@@ -18,6 +18,11 @@ function Faq() {
         'No. Its not. Its a stationary bus-themed fully operational 42 cover restaurant.',
     },
     {
+      question: "Do you offer delivery or takeout options? ",
+      answer:
+        "Yes, we provide delivery and takeout services for your convenience. You can place orders through our delivery partners as well.",
+    },
+    {
       question: "How many locations are we currently present in?",
       answer:
         "We are currently based out of 4 locations across Delhi including, Lajpat Nagar, North Campus, Rajender Nagar, & South Extension.",
@@ -27,11 +32,7 @@ function Faq() {
       answer:
         "Yes, we have a selection of vegetarian, vegan, and gluten-free options available. Please check our menu or ask our staff for details.",
     },
-    {
-      question: "Do you offer delivery or takeout options? ",
-      answer:
-        "Yes, we provide delivery and takeout services for your convenience. You can place orders through our delivery partners as well.",
-    },
+  
   ];
 
   return (
