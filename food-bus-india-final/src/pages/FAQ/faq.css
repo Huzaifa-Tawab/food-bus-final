@@ -96,7 +96,7 @@
       width: 79vw;
       border-bottom: 2px solid #E5E7EB;
       transition: 300ms linear;
-
+     height: 7.6vh;
     }
   
     button:hover {
