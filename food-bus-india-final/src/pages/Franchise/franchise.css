@@ -5,7 +5,11 @@
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+}
+.Franchise> h1{
+  text-align: center;
+  color: #000000;
 }
 .Franchise-Form {
   display: flex;
@@ -40,11 +44,16 @@
 
 .franchise-field-group {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
 }
 
-.franchise-field,
+
 .franchise-field-select {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.franchise-field{
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -158,8 +167,7 @@
   height: 100%;
   width: 100%;
   /* background: red; */
-
-  color: white;
+  color: #000;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -167,28 +175,26 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 700;
+  font-weight: 500;
   
   p{
-    font-size: 1.3rem;
-     padding-left: 20px;
-    padding-right: 20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+     /* padding-left: 20px;
+    padding-right: 20px; */
     /* padding-bottom: 30px; */
   }
   
 }
 .front h1{
-  color: #FFFCFC;
-  
+  color: #fff;
+  font-weight: 700;
   line-height: 2rem;
-  text-decoration: underline;
-  text-decoration-color: white;
 }
 .bluee h1{
-  color:#FFFCFC;
+  color:#fff;
   line-height: 2rem;
-  text-decoration: underline;
-  text-decoration-color: white;
+  font-weight: 700;
   
   
 }
@@ -197,7 +203,7 @@
   height: 100%;
   width: 100%;
   /* background: red; */
-  color: white;
+  color: #000;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -205,13 +211,15 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 700;
+  font-weight: 500;
   
   p{
-    font-size: 1.3rem;
-    padding-left: 30px;
+    font-size: 1.2rem;
+    /* padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
+    padding: 10px 20px;
+
   }
 }
 .bluee{

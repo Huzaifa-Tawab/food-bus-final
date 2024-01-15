@@ -1,5 +1,4 @@
 .Kitchen {
-  height: 100vh;
   width: 100vw;
   background: url("./background.jpg");
   background-repeat: no-repeat;
@@ -58,7 +57,7 @@
   background:#EF3A3A;
 }
 .blue {
-  background: #202B8C;
+  background: #141d74;
 }
 @media (max-width: 768px) {
   .Kitchen {
