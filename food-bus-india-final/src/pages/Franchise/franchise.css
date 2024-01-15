@@ -392,13 +392,13 @@ background: #1B257E;
   .fronts p{
     width:60vw;
     font-size:0.8rem ;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 0px;
   }
   .front p{
     width:60vw;
     font-size: 0.8rem;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 0px;
   }
 }
