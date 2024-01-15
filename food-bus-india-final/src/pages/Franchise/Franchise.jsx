@@ -93,6 +93,7 @@ function Franchise() {
 
   return (
     <div className="Franchise">
+        <h1> Be Your Own Boss</h1>
       <div className="Frannchise-hero">
         <img className="fran"src={franch}></img>
       </div>
@@ -142,7 +143,6 @@ function Franchise() {
         </div>
       </div>
       <div className="Franchise-Form">
-        <h1> Be Your Own Boss</h1>
         <p>
           We consider all the drivers of change gives you the components you
           need to change to create a truly happens.
