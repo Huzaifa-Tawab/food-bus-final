@@ -4,17 +4,17 @@
 
   h1 {
     font-size: 1.8rem;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-weight: 500;
   }
   h3 {
     font-size: 1.5rem;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-weight: 500;
   }
-  p{
+  p {
     font-size: 1rem;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-weight: 400;
   }
 }
@@ -26,17 +26,18 @@
 }
 .Footer-Top-Text span {
   color: rgb(219, 43, 43);
-  font-family: Josefin Sans,serif;
+  font-family: Josefin Sans, serif;
   font-weight: 700;
 }
 .Footer-Middle {
+  text-align: center;
   border-top: 2px solid rgb(219, 43, 43);
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   p {
     width: 20vw;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-family: 400;
   }
 }
@@ -51,9 +52,8 @@
   p {
     padding: 0px !important;
     margin: 0px !important;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-family: 400;
-
   }
 }
 
@@ -69,7 +69,7 @@
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  
+
   font-size: 100%;
   height: 44px;
   line-height: 1;
@@ -85,7 +85,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-family: Josefin Sans,serif;
+  font-family: Josefin Sans, serif;
   font-weight: 500;
 }
 
@@ -98,11 +98,11 @@
     rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
     rgba(50, 151, 211, 0.3) 0 0 0 4px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-.Footer-Middle-UseFull{
+.Footer-Middle-UseFull {
   line-height: 1;
 }
 

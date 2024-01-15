@@ -10,12 +10,13 @@ function Faq() {
   const faqs = [
     {
       question: "Is this a real bus?",
-      answer: "No, It's a stationary double decker bus themed restaurant and does not move.",
+      answer:
+        "No, It's a stationary double decker bus themed restaurant and does not move.",
     },
     {
       question: "Is this a food-truck?",
       answer:
-        'No. Its not. Its a stationary bus-themed fully operational 42 cover restaurant.',
+        "No. Its not. Its a stationary bus-themed fully operational 42 cover restaurant.",
     },
     {
       question: "Do you offer delivery or takeout options? ",
@@ -32,7 +33,6 @@ function Faq() {
       answer:
         "Yes, we have a selection of vegetarian, vegan, and gluten-free options available. Please check our menu or ask our staff for details.",
     },
-  
   ];
 
   return (
@@ -43,6 +43,7 @@ function Faq() {
           <div className="Faq-single" key={index}>
             <button onClick={() => toggleAccordion(index)}>
               {faq.question}
+              {openIndex === index ? "+" : "-"}
             </button>
             {openIndex === index && <p>{faq.answer}</p>}
           </div>
