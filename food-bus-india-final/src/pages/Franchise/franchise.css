@@ -183,7 +183,7 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 500;
+  font-weight: 600;
   
   p{
     font-size: 1.2rem;
@@ -211,7 +211,7 @@
   height: 100%;
   width: 100%;
   /* background: red; */
-  color: #000;
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -219,7 +219,7 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 500;
+  font-weight: 600;
   
   p{
     font-size: 1.2rem;
@@ -227,6 +227,7 @@
     padding-right: 30px;
     padding-bottom: 30px; */
     padding: 10px 20px;
+    font-weight: 600;
 
   }
 }
@@ -237,6 +238,7 @@
 .front{
   border-radius: 10px;
 background: #1B257E;
+color: white;
 }
 /* .back {
   background: blue;

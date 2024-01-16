@@ -28,7 +28,7 @@ const SocialBar = () => {
         <FaPinterest className="img pin" />
       </a> */}
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/foodbusofindia/?hl=en"
         target="_blank"
         rel="noopener noreferrer"
       >
