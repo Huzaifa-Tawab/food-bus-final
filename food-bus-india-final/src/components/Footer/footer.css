@@ -47,6 +47,11 @@
 
   }
 }
+.Footer-Middle-About{
+  img{
+    width: 20vh;
+  }
+}
 .Footer-Bottom {
   background: rgb(219, 43, 43);
 

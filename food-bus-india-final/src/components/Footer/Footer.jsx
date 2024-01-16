@@ -18,9 +18,9 @@ function Footer() {
         </div>
         <div className="Footer-Middle">
           <div className="Footer-Middle-Logo">
-            <img src={Logo} alt="Logo" />
           </div>
           <div className="Footer-Middle-About">
+          <img src={Logo} alt="Logo" />
             <h3>About Us.</h3>
             <p>
               Corporate clients and leisure travelers have been relying on
