@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import "./franchise.css";
 import franch from "../../assets/kitchen/franchhero.jpg";
-
+import mail from "../../assets/franchise/mail.png";
+import phone from "../../assets/franchise/phone.png";
 function Franchise() {
   const [formData, setFormData] = useState({
     name: "",
@@ -93,19 +94,19 @@ function Franchise() {
 
   return (
     <div className="Franchise">
-        <h1> Be Your Own Boss</h1>
+      <h1> Be Your Own Boss</h1>
       <div className="Frannchise-hero">
-        <img className="fran"src={franch}></img>
+        <img className="fran" src={franch}></img>
       </div>
       <div className="Franchise-cards">
         <div class="card">
           <div class="content">
             <div class="front ">
               <h1>Standardization & predictability</h1>
-            
+
               <p>
-                Food Bus of India's unique model ensures standardization
-                in both operating expenses (OPEX) & capital expenses (CAPEX)
+                Food Bus of India's unique model ensures standardization in both
+                operating expenses (OPEX) & capital expenses (CAPEX)
               </p>
             </div>
           </div>
@@ -114,9 +115,10 @@ function Franchise() {
           <div class="content">
             <div class="fronts bluee">
               <h1>Accuracy in projection</h1>
-            
+
               <p>
-              Our projections have an exceptional 90% accuracy rate for future predictions and return on investment (ROl).
+                Our projections have an exceptional 90% accuracy rate for future
+                predictions and return on investment (ROl).
               </p>
             </div>
           </div>
@@ -125,9 +127,10 @@ function Franchise() {
           <div class="content">
             <div class="front">
               <h1>Exclusive Territories Franchisees</h1>
-            
+
               <p>
-              We secure exclusive rights to operate in specific territories, reducing direct competition and enhancing profitability.
+                We secure exclusive rights to operate in specific territories,
+                reducing direct competition and enhancing profitability.
               </p>
             </div>
           </div>
@@ -136,8 +139,6 @@ function Franchise() {
           <div class="content">
             <div class="fronts bluee">
               <h1>No active direct competitors</h1>
-           
-              
             </div>
           </div>
         </div>
@@ -256,45 +257,101 @@ function Franchise() {
         </form>
         {/* Contact */}
         <div className="flex-contact">
-          <div className="mail">
-            <div className="mail-content">
-            <img src={""} alt="" />
-            <div className="mail-span">
-              <span>Your Message</span>
-              <br />
-              <span>franchise@foodbusofindia.com</span>
+          <div className="Content-Card">
+            <div className="Content-Img">
+              <img src={mail} alt="" />
             </div>
+
+            <div className="Content-Card-solo">
+              <h1>Mail</h1>
+
+              <span>franchise@foodbusofindia.com</span>
             </div>
           </div>
-          <div className="number">
-            <div className="number-content">
-            <img src={""} alt="" />
-            <div className="number-span">
-              <span>Phone No</span>
-              <br />
-              <span>franchise@foodbusofindia.com</span>
+          <div className="Content-Card">
+            <div className="Content-Img">
+              <img src={phone} alt="" />
             </div>
+
+            <div className="Content-Card-solo">
+              <h1>Phone</h1>
+
+              <span>franchise@foodbusofindia.com</span>
             </div>
           </div>
         </div>
       </div>
       {/* Youtube Videos */}
       <div className="about-start">
-        <h1>Wanna Know More About<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Bus India???</h1> 
+        <h1>
+          Wanna Know More About<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Bus
+          India???
+        </h1>
       </div>
       <div className="youtubevideos">
-      <iframe width="342" height="212" src="https://www.youtube.com/embed/uKROkBX2Ohc" title="Khana Kaisa hai FOOD BUS of INDIA Ka ? | Harpreet SDC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/uKROkBX2Ohc"
+          title="Khana Kaisa hai FOOD BUS of INDIA Ka ? | Harpreet SDC"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
 
-      <iframe width="342" height="212" src="https://www.youtube.com/embed/Mz0XZlmajFo" title="Food Bus Of India | Vishwavidyalaya Metro Station | India&#39;s First Restaurant in Bus| Amazing Food" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/Mz0XZlmajFo"
+          title="Food Bus Of India | Vishwavidyalaya Metro Station | India&#39;s First Restaurant in Bus| Amazing Food"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
 
-      <iframe width="342" height="212" src="https://www.youtube.com/embed/HBZaEOKkC18" title="India&#39;s First Food Bus Hotel 🔥🌟 ( Pehli Bar in India)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-       </div>
-       <div className="youtubevid">
-      <iframe className="vid" width="342" height="212" src="https://www.youtube.com/embed/H3ShgL1Gyaw" title="Delhi Has A Moving Restaurant In A Double Decker Bus | Curly Tales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/HBZaEOKkC18"
+          title="India&#39;s First Food Bus Hotel 🔥🌟 ( Pehli Bar in India)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div className="youtubevid">
+        <iframe
+          className="vid"
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/H3ShgL1Gyaw"
+          title="Delhi Has A Moving Restaurant In A Double Decker Bus | Curly Tales"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
 
-      <iframe  className="vid" width="342" height="212" src="https://www.youtube.com/embed/8OJmZeqa80k" title="Japan To Mexico: Food Bus In India Has It All For G20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          className="vid"
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/8OJmZeqa80k"
+          title="Japan To Mexico: Food Bus In India Has It All For G20"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
 
-      <iframe className="vid"  width="342" height="212" src="https://www.youtube.com/embed/gGPn92wLmmA" title="Food Bus of INDIA | Delhi University | Double Decker Bus | Food | Explore | Restaurant in a Bus |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          className="vid"
+          width="342"
+          height="212"
+          src="https://www.youtube.com/embed/gGPn92wLmmA"
+          title="Food Bus of INDIA | Delhi University | Double Decker Bus | Food | Explore | Restaurant in a Bus |"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );

@@ -5,20 +5,24 @@
   background-size: cover;
   background-position: center center;
   span {
-    padding-left: 10vw;
     color: #141d74;
-    font-weight: 700;
     font-size: 2rem;
     font-family: Cormorant Infant, serif;
     font-weight: 700;
-    padding-top: 25px;
-    position: relative;
-      top: 5.8vh;
   }
 }
 .Kitchen-Flex {
   display: flex;
   margin: 0px 10vw 20px 10vw;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -30px;
+
+  justify-content: space-around;
+
+  background-color: #ffffff68;
+  border-radius: 16px;
+
+  padding: 2.5vw;
+  transition: 300ms linear;
   img {
     width: 30vw;
   }
@@ -27,17 +31,23 @@
     font-weight: 400;
 
     font-size: 1.7rem;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     padding-top: 40px;
   }
- 
+}
+.hedr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  p {
+    padding: 0px;
+  }
 }
 .Kitchen-facts {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding-bottom: 25px;
-
 }
 .Kitchen-fact {
   text-align: center;
@@ -45,17 +55,17 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
- width: 300px;
+  width: 300px;
   height: 300px;
   border-radius: 100%;
 
-  h1{
+  h1 {
     font-family: Cormorant Infant, serif;
     font-weight: 700;
     font-size: 1.6rem;
-  } 
-  p{
-    font-family: Josefin Sans,serif;
+  }
+  p {
+    font-family: Josefin Sans, serif;
     font-weight: 400;
     font-size: 1.2rem;
     padding-right: 10px;
@@ -63,7 +73,7 @@
   }
 }
 .red {
-  background:#db2b2b;
+  background: #db2b2b;
 }
 .blue {
   background: #141d74;
@@ -74,14 +84,14 @@
       font-size: 0.8rem;
     }
 
-    span {
+    /* span {
       margin-bottom: 10px;
       padding: 0px;
       text-align: center;
       font-size: 1.2rem;
       position: none;
       top: 0vh;
-    }
+    } */
   }
 
   .Kitchen-Flex {
@@ -92,7 +102,7 @@
       width: 100vw;
       height: 180px;
     }
-    p{
+    p {
       padding-top: 10px;
     }
   }
@@ -116,6 +126,5 @@
       width: 8rem;
       padding-bottom: 10px;
     }
-    
   }
 }
