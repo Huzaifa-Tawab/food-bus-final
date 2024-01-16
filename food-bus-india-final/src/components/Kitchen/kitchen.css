@@ -36,6 +36,8 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-bottom: 25px;
+
 }
 .Kitchen-fact {
   text-align: center;
@@ -43,20 +45,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 45vh;
-  width: 20vw;
+ width: 300px;
+  height: 300px;
   border-radius: 100%;
-  padding-bottom: 25px;
 
   h1{
     font-family: Cormorant Infant, serif;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   } 
   p{
     font-family: Josefin Sans,serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-right: 10px;
     padding-left: 10px;
   }
