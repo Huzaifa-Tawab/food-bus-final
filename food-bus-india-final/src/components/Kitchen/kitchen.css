@@ -6,7 +6,7 @@
   background-position: center center;
   span {
     padding-left: 10vw;
-    color: rgb(27, 37, 126);
+    color: #141d74;
     font-weight: 700;
     font-size: 2rem;
     font-family: Cormorant Infant, serif;
@@ -23,7 +23,7 @@
     width: 30vw;
   }
   p {
-    color: rgb(219, 43, 43);
+    color: #db2b2b;
     font-weight: 400;
 
     font-size: 1.7rem;
@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 40vh;
+  height: 45vh;
   width: 20vw;
   border-radius: 100%;
   padding-bottom: 25px;
@@ -62,7 +62,7 @@
   }
 }
 .red {
-  background:#EF3A3A;
+  background:#db2b2b;
 }
 .blue {
   background: #141d74;

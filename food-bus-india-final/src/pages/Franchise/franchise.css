@@ -1,14 +1,13 @@
 /* Franchise Form Styles */
 .Franchise {
   padding: 10vw 5vw 0px 5vw;
-
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .Franchise> h1{
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
   color: #db2b2b;
 }
@@ -150,7 +149,6 @@
 .card {
   width: 300px;
   height: 300px;
-
   perspective: 500px;
 }
 
@@ -175,7 +173,7 @@
   height: 100%;
   width: 100%;
   /* background: red; */
-  color: #000;
+  /* color: #000; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -183,7 +181,7 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 600;
+  font-weight: 500;
   
   p{
     font-size: 1.2rem;
@@ -191,18 +189,19 @@
      /* padding-left: 20px;
     padding-right: 20px; */
     /* padding-bottom: 30px; */
+    font-weight: 500;
   }
   
 }
 .front h1{
   color: #fff;
-  font-weight: 700;
-  line-height: 2rem;
+  font-weight: 600;
+  line-height: 1.8rem;
 }
 .bluee h1{
   color:#fff;
-  line-height: 2rem;
-  font-weight: 700;
+  line-height: 1.8rem;
+  font-weight: 600;
   
   
 }
@@ -219,7 +218,7 @@
   border-radius: 5px;
   backface-visibility: hidden;
   font-family: Cormorant Infant,serif;
-  font-weight: 600;
+  font-weight: 500;
   
   p{
     font-size: 1.2rem;
@@ -227,13 +226,13 @@
     padding-right: 30px;
     padding-bottom: 30px; */
     padding: 10px 20px;
-    font-weight: 600;
+    font-weight: 500;
 
   }
 }
 .bluee{
   border-radius: 10px;
-  background: #EF3A3A;;
+  background: #dc3a3a;
 }
 .front{
   border-radius: 10px;
@@ -362,7 +361,7 @@ color: white;
 .about-start{
  
   display: flex;
-    color: red;
+    color: #dc3a3a;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

@@ -101,11 +101,11 @@ function Franchise() {
         <div class="card">
           <div class="content">
             <div class="front ">
-              <h1>Standardization and predictability</h1>
+              <h1>Standardization & predictability</h1>
             
               <p>
-                Food Bus of India's unique model ensures extreme standardization
-                in both operating expenses (OPEX) and capital expenses (CAPEX)
+                Food Bus of India's unique model ensures standardization
+                in both operating expenses (OPEX) & capital expenses (CAPEX)
               </p>
             </div>
           </div>
