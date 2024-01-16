@@ -24,14 +24,14 @@
 }
 
 .testimonial {
-  opacity: 0;
+  display: none;
   transition: opacity 1s ease-in-out;
   flex: 0 0 100%;
   text-align: center;
 }
 
 .testimonial.active {
-  opacity: 1;
+  display: block;
 }
 
 .testimonial img {

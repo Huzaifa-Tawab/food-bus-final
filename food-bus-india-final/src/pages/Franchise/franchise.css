@@ -47,7 +47,7 @@
 
 .franchise-field-group {
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .franchise-field-select {
@@ -273,8 +273,9 @@
   }
 }
 .Franchise-Form > form {
-  padding-left: 10%;
+  padding: 20px 10%;
   margin-top: 3vh;
+  border-radius: 16px;
 }
 
 /* Responsive Styles */

@@ -4,6 +4,7 @@ import "./testamonials.css"; // Import your CSS file for styling
 const testimonialData = [
   "./testamonials/T1.png", // Replace with actual screenshot URL
   "./testamonials/T2.png", // Replace with actual screenshot URL
+  "./testamonials/T3.jpeg", // Replace with actual screenshot URL
 ];
 
 const Testamonials = () => {
