@@ -25,7 +25,8 @@
   font-size: 1rem;
   color: #000000;
   font-weight: 600;
-  margin-bottom: 10px;
+  
+  margin-top: 13px;
 }
 
 .Franchise-Form >h1,
@@ -96,9 +97,12 @@
   width: 100%;
   text-align: center;
   padding: 20px 0;
+  position: relative;
+  right: 3vw;
 }
 .form{
   padding: 5px 60px;
+  
 }
 
 .franchise-field-submit button {
@@ -266,6 +270,10 @@ background: #1B257E;
 
   }
 }
+.Franchise-Form >form{
+  padding-left: 5.7vw;
+  margin-top: 5vh;
+}
 
 /* Responsive Styles */
 
@@ -274,7 +282,7 @@ background: #1B257E;
     background: #e2e2e2;
     padding: 0;
     margin: 0;
-    padding-top: 7vh;
+    /* padding-top: 7vh; */
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -298,6 +306,7 @@ background: #1B257E;
     width: 100%;
     justify-content: center;
     align-items: center;
+    gap:20px ;
   }
 
   .franchise-field-select {
@@ -416,5 +425,20 @@ background: #1B257E;
     padding-left: 3.6vw;
     padding-right: 0px;
   }
+  .Franchise-Form >form{
+    padding-left: 3vw;
+    margin-top: 3vh;
+  }
+  .Franchise-Form label {
+   
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .Franchise> h1{
+    margin-top: 10vh;
+    font-size: 2rem;
+
+  }
 }
+
 

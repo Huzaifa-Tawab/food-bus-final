@@ -12,6 +12,8 @@
     font-family: Cormorant Infant, serif;
     font-weight: 700;
     padding-top: 25px;
+    position: relative;
+      top: 5.8vh;
   }
 }
 .Kitchen-Flex {
@@ -26,7 +28,9 @@
 
     font-size: 1.7rem;
     font-family: Josefin Sans,serif;
+    padding-top: 40px;
   }
+ 
 }
 .Kitchen-facts {
   display: flex;
@@ -39,7 +43,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 20vw;
+  height: 40vh;
   width: 20vw;
   border-radius: 100%;
   padding-bottom: 25px;
@@ -53,6 +57,8 @@
     font-family: Josefin Sans,serif;
     font-weight: 400;
     font-size: 1.5rem;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 .red {
@@ -72,6 +78,8 @@
       padding: 0px;
       text-align: center;
       font-size: 1.2rem;
+      position: none;
+      top: 0vh;
     }
   }
 
@@ -83,6 +91,9 @@
       width: 100vw;
       height: 180px;
     }
+    p{
+      padding-top: 10px;
+    }
   }
   .Kitchen-facts {
     padding-top: 20px;
@@ -91,8 +102,9 @@
     gap: 20px;
   }
   .Kitchen-fact {
-    height: 42vw;
+    height: 40vw;
     width: 42vw;
+    padding-bottom: 1.7vh;
     h1 {
       font-size: 0.8rem;
       line-height: 1rem;

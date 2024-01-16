@@ -143,10 +143,10 @@ function Franchise() {
         </div>
       </div>
       <div className="Franchise-Form">
-        <p>
+        {/* <p>
           We consider all the drivers of change gives you the components you
           need to change to create a truly happens.
-        </p>
+        </p> */}
         <form onSubmit={handleSubmit}>
           <div className="franchise-field-group">
             <div className="franchise-field">

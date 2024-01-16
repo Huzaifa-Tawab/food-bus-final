@@ -6,6 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 
 const SocialBar = () => {
@@ -16,16 +17,16 @@ const SocialBar = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaYoutube className="img you"/>
+        <FaFacebook  className="img you"/>
       </a>
       
-      <a
+      {/* <a
         href="https://www.pinterest.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaPinterest className="img pin" />
-      </a>
+      </a> */}
       <a
         href="https://www.instagram.com/"
         target="_blank"
@@ -33,9 +34,9 @@ const SocialBar = () => {
       >
         <FaInstagram className="img inst" />
       </a>
-      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+      {/* <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
       <FaTwitter className="img twi" />
-      </a>
+      </a> */}
     </div>
   );
 };

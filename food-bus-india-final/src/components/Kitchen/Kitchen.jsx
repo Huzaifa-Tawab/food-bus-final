@@ -6,15 +6,8 @@ function Kitchen() {
     <div className="Kitchen">
       <span>Standardization and Quality Control:</span>
       <div className="Kitchen-Flex">
-        <p>
-          With a centralized base kitchen and meticulously crafted Standard
-          Operating Procedures (SOPs), Food Bus of India has implemented a
-          robust system that guarantees unwavering consistency in food quality
-          and taste throughout its diverse network of outlets. Recognizing the
-          inherent challenges of standardization in the culinary industry, the
-          company has strategically positioned its central kitchen as the
-          nucleus of its operations, meticulously overseeing every aspect of the
-          food preparation process.
+        <p className="hedr">
+        With a centralized base kitchen and rigorous SOPs, Food Bus of India ensures consistent food quality and taste across all outlets, addressing the standardization challenge.
         </p>
         <img src={KitchenImg} alt="" />
       </div>

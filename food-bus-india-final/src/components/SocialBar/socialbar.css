@@ -32,17 +32,17 @@
   font-size: 30px;
 }
 .you:hover{
-  color: red;
+  color: blue;
 }
-.pin:hover{
+/* .pin:hover{
   color: #B7081B;
-}
+} */
 .inst:hover{
   color: #F6056A;
 }
-.twi:hover{
+/* .twi:hover{
   color: #1DA1F2;
-}
+} */
 @media (max-width: 786px) {
 
   .social-bar {
