@@ -20,7 +20,7 @@
 }
 .Footer-Top {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* align-items: center; */
   padding-bottom: 20px;
 }
@@ -34,7 +34,7 @@
   border-top: 2px solid rgb(219, 43, 43);
   padding-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   p {
     width: 20vw;
     font-family: Josefin Sans, serif;
