@@ -10,6 +10,8 @@
   font-size: 3.5rem;
   text-align: center;
   color: #db2b2b;
+  font-family: Cormorant Infant,serif;
+
 }
 .Franchise-Form {
   display: flex;
@@ -35,7 +37,8 @@
   font-weight: 700;
 }
 .Franchise-Form p{
-  font-family: Josefin Sans,serif;
+  font-family: Cormorant Infant,serif;
+
   font-weight: 400;
 }
   
@@ -101,6 +104,8 @@
 }
 .form{
   padding: 5px 60px;
+  font-family: Cormorant Infant,serif;
+
   
 }
 
@@ -125,7 +130,8 @@
   transform: translateZ(0);
   transition: all 0.2s, box-shadow 0.08s ease-in;
   user-select: none;
-  font-family: Josefin Sans,serif;
+  font-family: Cormorant Infant,serif;
+
   font-weight: 600;
 }
 
@@ -186,6 +192,8 @@
   p{
     font-size: 1.2rem;
     padding: 10px 20px;
+  font-family: Cormorant Infant,serif;
+
      /* padding-left: 20px;
     padding-right: 20px; */
     /* padding-bottom: 30px; */
@@ -197,11 +205,15 @@
   color: #fff;
   font-weight: 600;
   line-height: 1.8rem;
+  font-family: Cormorant Infant,serif;
+
 }
 .bluee h1{
   color:#fff;
   line-height: 1.8rem;
   font-weight: 600;
+  font-family: Cormorant Infant,serif;
+
   
   
 }
@@ -272,8 +284,8 @@ color: white;
   }
 }
 .Franchise-Form >form{
-  padding-left: 5.7vw;
-  margin-top: 5vh;
+  padding-left: 10%;
+  margin-top: 3vh;
 }
 
 /* Responsive Styles */
