@@ -21,7 +21,7 @@ function Footer() {
           </div>
           <div className="Footer-Middle-About">
           <img src={Logo} alt="Logo" />
-            <h3>About Us.</h3>
+            {/* <h3>About Us.</h3> */}
             <p>
               Corporate clients and leisure travelers have been relying on
               Groundlink for dependable, safe, and professional chauffeured car
