@@ -344,6 +344,13 @@ color: white;
     width: 50%;
   }
 }
+.flex-contact{
+  display: flex;
+  justify-content: space-between;
+}
+.mail-content{
+  
+}
 .youtubevideos{
    display: flex;
    align-items: center;

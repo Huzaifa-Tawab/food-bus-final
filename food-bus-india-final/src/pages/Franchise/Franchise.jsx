@@ -254,7 +254,31 @@ function Franchise() {
             <button type="submit">Submit</button>
           </div>
         </form>
+        {/* Contact */}
+        <div className="flex-contact">
+          <div className="mail">
+            <div className="mail-content">
+            <img src={""} alt="" />
+            <div className="mail-span">
+              <span>Your Message</span>
+              <br />
+              <span>franchise@foodbusofindia.com</span>
+            </div>
+            </div>
+          </div>
+          <div className="number">
+            <div className="number-content">
+            <img src={""} alt="" />
+            <div className="number-span">
+              <span>Phone No</span>
+              <br />
+              <span>franchise@foodbusofindia.com</span>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* Youtube Videos */}
       <div className="about-start">
         <h1>Wanna Know More About<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Bus India???</h1> 
       </div>
