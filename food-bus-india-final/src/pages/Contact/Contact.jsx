@@ -10,11 +10,11 @@ function Contact() {
     <div className="cntct-text">
       <div className="contct-email">
         <img className="magphn-icon"  src={mail}></img>
-        <h2>hello@fbi.com</h2>
+        <h2>Operations@foodbusofindia.com</h2>
       </div>
       <div className="phone-email">
         <img className="magphn-icon"  src={phone}></img>
-        <h2>000000000000</h2>
+        <h2>+91-98998-97972</h2>
       </div>
     </div>
    </div>
