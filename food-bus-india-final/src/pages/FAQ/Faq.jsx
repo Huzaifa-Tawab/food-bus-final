@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./faq.css";
+import faqhead from "../../assets/faqhead.png"
 function Faq() {
   const [openIndex, setOpenIndex] = useState(0);
 
@@ -37,13 +38,17 @@ function Faq() {
 
   return (
     <div className="Faq-main">
-      <h3 className="Faq-main-heading">FAQs:</h3>
+      <img src={faqhead}></img>
+      {/* <h3 className="Faq-main-heading">FAQs:</h3> */}
       <div className="Faq-content">
         {faqs.map((faq, index) => (
           <div className="Faq-single" key={index}>
             <button onClick={() => toggleAccordion(index)}>
               {faq.question}
-              {openIndex === index ? "+" : "-"}
+              <div className={openIndex === index ? "minus" : "plus"}>
+                {openIndex === index ? "-" : "+"}
+                 </div>
+              {/* {openIndex  === index ? "-" : "+"} */}
             </button>
             {openIndex === index && <p>{faq.answer}</p>}
           </div>

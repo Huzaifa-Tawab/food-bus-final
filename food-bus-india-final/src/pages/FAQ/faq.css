@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100%;
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,9 +17,10 @@
   font-weight: 700;
 }
 .Faq-content {
-  background-color: #00000044;
+  /* background-color: #00000044;
   padding: 20px 40px;
-  border-radius: 16px;
+  border-radius: 16px; */
+  height: 70vh;
 }
 .Faq-single {
   button {
@@ -59,9 +60,23 @@
     
   }
 }
+.Faq-main>img{
+  width: 75vw;
+}
+.plus{
+  position: relative;
+    right: 28vw;
+    bottom: 4vh;
+
+}
+.minus{
+  position: relative;
+    right: 28vw;
+    bottom: 4vh;
+}
 @media (max-width: 786px) {
   .Faq-main {
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,9 +92,9 @@
     padding: 50px;
   }
   .Faq-content {
-    background-color: #00000044;
+    /* background-color: #00000044;
     padding: 10px 20px 10px 20px;
-    border-radius: 16px;
+    border-radius: 16px; */
     width: 83vw;
   }
   .Faq-single {
@@ -118,10 +133,23 @@
   .Faq-single {
     padding-left: 1vw;
 }
-
+.Faq-main>img{
+  width: 75vw;
+  margin-top:11vh ;
+}
+.plus{
+  position: relative;
+    right: 37vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minus{
+  position: relative;
+    right: 37vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
-
-
-  
+}
