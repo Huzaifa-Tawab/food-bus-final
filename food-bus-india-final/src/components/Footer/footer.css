@@ -41,9 +41,10 @@
     font-family: 400;
   }
 }
-.Footer-Middle-About {
+.Footer-Middle-Logo{
   img {
     width: 20vh;
+
   }
 }
 .Footer-Bottom {
