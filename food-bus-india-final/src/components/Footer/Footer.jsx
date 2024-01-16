@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <div className="Footer">
-        <div className="Footer-Top">
+        {/* <div className="Footer-Top">
           <div className="Footer-Top-Text">
             <h1>
               <span>St</span>ill You Need Our Support ?
@@ -15,7 +15,7 @@ function Footer() {
             </p>
           </div>
           <button>Contact Us</button>
-        </div>
+        </div> */}
         <div className="Footer-Middle">
           <div className="Footer-Middle-Logo">
           </div>

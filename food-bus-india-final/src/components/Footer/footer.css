@@ -31,7 +31,7 @@
 }
 .Footer-Middle {
   /* text-align: center; */
-  border-top: 2px solid rgb(219, 43, 43);
+  /* border-top: 2px solid rgb(219, 43, 43); */
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
