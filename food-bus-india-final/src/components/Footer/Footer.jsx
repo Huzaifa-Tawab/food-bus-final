@@ -17,10 +17,9 @@ function Footer() {
           <button>Contact Us</button>
         </div> */}
         <div className="Footer-Middle">
-          <div className="Footer-Middle-Logo">
-          </div>
+          <div className="Footer-Middle-Logo"></div>
           <div className="Footer-Middle-About">
-          <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="Logo" />
             {/* <h3>About Us.</h3> */}
             <p>
               Corporate clients and leisure travelers have been relying on
@@ -30,14 +29,26 @@ function Footer() {
           </div>
           <div className="Footer-Middle-UseFull">
             <h3>Useful Links</h3>
+
+            <a href="/">
+              <p className="points">Home</p>
+            </a>
+
             <a href="/ourstory">
-              <p className="points">Our Story </p></a>
-               
-              <a href="/menu"> <p className="points">Menu</p></a>
-              <a href="/franchise"><p className="points">Franchise</p></a>
-              <a href="/faq"><p className="points">Faq </p></a>
-              <a href="/contact"><p className="points">Contact</p></a>
-              
+              <p className="points">Our Story </p>
+            </a>
+            <a href="/franchise">
+              <p className="points">Franchise</p>
+            </a>
+            <a href="/menu">
+              <p className="points">Menu</p>
+            </a>
+            <a href="/faq">
+              <p className="points">Faq </p>
+            </a>
+            <a href="/contact">
+              <p className="points">Contact</p>
+            </a>
           </div>
           <div className="Footer-Middle-Help">
             <h3>Help?</h3>

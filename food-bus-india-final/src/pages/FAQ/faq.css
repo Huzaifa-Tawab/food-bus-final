@@ -3,16 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding-top: 10vh;
 }
 .Faq-main-heading {
   color: #000;
   font-size: 3rem;
-  font-family: Cormorant Infant,serif;
+  font-family: Cormorant Infant, serif;
   padding: 50px;
   font-weight: 700;
 }
@@ -31,7 +32,7 @@
     font-size: 1.8rem;
     cursor: pointer;
     width: 60vw;
-    border-bottom: 2px solid #E5E7EB;
+    border-bottom: 2px solid #e5e7eb;
     transition: 300ms linear;
     height: 10vh;
     font-family: "Josefin Sans";
@@ -43,7 +44,6 @@
   }
 
   p {
-    
     background-color: #dbdbdb;
     font-size: 1.5rem;
     transition: 300ms linear;
@@ -51,28 +51,26 @@
     padding-left: 6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: Josefin Sans,"serif";
+    font-family: Josefin Sans, "serif";
     font-weight: 400;
     /* padding: 1rem; */
-    
+
     color: black;
     width: 53vw;
-    
   }
 }
-.Faq-main>img{
+.Faq-main > img {
   width: 75vw;
 }
-.plus{
+.plus {
   position: relative;
-    right: 28vw;
-    bottom: 4vh;
-
+  right: 28vw;
+  bottom: 4vh;
 }
-.minus{
+.minus {
   position: relative;
-    right: 28vw;
-    bottom: 4vh;
+  right: 28vw;
+  bottom: 4vh;
 }
 @media (max-width: 786px) {
   .Faq-main {
@@ -99,7 +97,7 @@
   }
   .Faq-single {
     button {
-      background-color:#F9FAFB;
+      background-color: #f9fafb;
       color: #000;
       font-size: 1rem;
       border: none;
@@ -107,49 +105,46 @@
       /* font-size: 1.2rem; */
       cursor: pointer;
       width: 79vw;
-      border-bottom: 2px solid #E5E7EB;
+      border-bottom: 2px solid #e5e7eb;
       transition: 300ms linear;
-     height: 9vh;
+      height: 9vh;
     }
-  
+
     button:hover {
       background-color: #dbdbdb;
     }
-  
+
     p {
       width: 65.5vw;
       background-color: #dbdbdb;
-  
+
       transition: 300ms linear;
       margin-top: 0;
       /* padding: 1rem; */
       font-size: 0.9rem;
       color: black;
       padding-left: 3rem;
-      
     }
-
   }
   .Faq-single {
     padding-left: 1vw;
-}
-.Faq-main>img{
-  width: 75vw;
-  margin-top:11vh ;
-}
-.plus{
-  position: relative;
+  }
+  .Faq-main > img {
+    width: 75vw;
+    margin-top: 11vh;
+  }
+  .plus {
+    position: relative;
     right: 37vw;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.minus{
-  position: relative;
+  }
+  .minus {
+    position: relative;
     right: 37vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
+  }
 }
