@@ -38,8 +38,8 @@ function Faq() {
 
   return (
     <div className="Faq-main">
-      <img src={faqhead}></img>
-      {/* <h3 className="Faq-main-heading">FAQs:</h3> */}
+      {/* <img src={faqhead}></img> */}
+      <h3 className="Faq-main-heading">FAQs:</h3>
       <div className="Faq-content">
         {faqs.map((faq, index) => (
           <div className="Faq-single" key={index}>
