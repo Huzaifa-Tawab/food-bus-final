@@ -13,25 +13,25 @@ function Kitchen() {
       </div>
       <div className="Kitchen-facts">
         <div className="Kitchen-fact blue">
-          <h1>Customers Served</h1>
+          <h1>First of it's kind</h1>
           <p>India’s first double decker dine in food chain</p>
         </div>
         <div className="Kitchen-fact red">
-          <h1> Local Ingredients</h1>
+          <h1>Exceptional Growth</h1>
           <p>
-          Served over 200000 customers
+          Served over 200000+ customers
           </p>
         </div>
         <div className="Kitchen-fact blue">
           <h1>Team Members</h1>
           <p>
-          More than 70 talented chefs and staff to deliver exceptional service
+          More than 70 talented chefs & staff to deliver exceptional service
           </p>
         </div>
         <div className="Kitchen-fact red">
           <h1>Cuisine Diversity </h1>
           <p>
-          Handy , Trendy and Affordable menu
+          Handy, Trendy and Affordable menu
           </p>
         </div>
       </div>
