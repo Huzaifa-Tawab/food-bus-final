@@ -1,7 +1,7 @@
 import React from "react";
 import "./kitchen.css";
 import KitchenImg from "../../assets/kitchen/kitchen.jpeg";
-import first from "../../assets/kitchen/firstkind.png";
+import first from "../../assets/kitchen/trophy.png";
 import served from "../../assets/kitchen/served.png";
 import team from "../../assets/kitchen/team.png";
 import food from "../../assets/kitchen/food.png";
