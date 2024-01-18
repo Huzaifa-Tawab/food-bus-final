@@ -281,6 +281,11 @@
 /* Responsive Styles */
 
 @media (max-width: 786px) {
+  .bluee h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: underline;
+  }
   .front p {
     padding: 0px;
   }
@@ -381,7 +386,8 @@
 
 @media (max-width: 786px) {
   .about-start h1 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 37px;
   }
   .vid {
     margin-top: 10px;
@@ -432,8 +438,13 @@
   }
   .Franchise > h1 {
     margin-top: 10vh;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-bottom: 10px;
   }
+}
+.front h1 {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .Content-Card {
@@ -445,6 +456,7 @@
   height: 60px;
   padding: 20px;
   gap: 20px;
+  width: 340px;
 }
 .flex-contact {
   padding: 20px;
@@ -465,6 +477,4 @@
 }
 .Content-Card-solo {
   color: #000000;
-  h1 {
-  }
 }

@@ -276,7 +276,7 @@ function Franchise() {
             <div className="Content-Card-solo">
               <h1>Phone</h1>
 
-              <span>franchise@foodbusofindia.com</span>
+              <span>+91 9899897972</span>
             </div>
           </div>
         </div>
@@ -284,8 +284,9 @@ function Franchise() {
       {/* Youtube Videos */}
       <div className="about-start">
         <h1>
-          Wanna Know More About<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food Bus
-          India???
+          Wanna Know More About
+          <br />
+          Food Bus Of India???
         </h1>
       </div>
       <div className="youtubevideos">
