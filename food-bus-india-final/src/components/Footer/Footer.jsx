@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../assets/logos/FBI-LOGO-H.webp";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -30,25 +31,26 @@ function Footer() {
           <div className="Footer-Middle-UseFull">
             <h3>Useful Links</h3>
 
-            <a href="/">
+            <Link to={"/"}>
               <p className="points">Home</p>
-            </a>
+            </Link>
 
-            <a href="/ourstory">
+            <Link to={"/ourstory"}>
               <p className="points">Our Story </p>
-            </a>
-            <a href="/franchise">
+            </Link>
+
+            <Link to={"/franchise"}>
               <p className="points">Franchise</p>
-            </a>
-            <a href="/menu">
+            </Link>
+            <Link to={"/menu"}>
               <p className="points">Menu</p>
-            </a>
-            <a href="/faq">
+            </Link>
+            <Link to={"/faq"}>
               <p className="points">Faq </p>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link to={"/contact"}>
               <p className="points">Contact</p>
-            </a>
+            </Link>
           </div>
           <div className="Footer-Middle-Help">
             <input type="text" placeholder="Email" />
