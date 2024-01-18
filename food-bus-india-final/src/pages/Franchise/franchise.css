@@ -281,6 +281,9 @@
 /* Responsive Styles */
 
 @media (max-width: 786px) {
+  .front p {
+    padding: 0px;
+  }
   .Franchise-Form {
     background: #e2e2e2;
     padding: 0;
@@ -416,17 +419,9 @@
     }
   }
   .fronts p {
-    width: 60vw;
-    font-size: 0.8rem;
-    padding-left: 3.6vw;
-    padding-right: 0px;
+    padding: 0px;
   }
-  .front p {
-    width: 60vw;
-    font-size: 0.8rem;
-    padding-left: 3.6vw;
-    padding-right: 0px;
-  }
+
   .Franchise-Form > form {
     padding-left: 3vw;
     margin-top: 3vh;
