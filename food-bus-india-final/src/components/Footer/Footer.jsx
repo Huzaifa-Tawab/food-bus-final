@@ -22,9 +22,9 @@ function Footer() {
             <img src={Logo} alt="Logo" />
             {/* <h3>About Us.</h3> */}
             <p>
-              Corporate clients and leisure travelers have been relying on
+              {/* Corporate clients and leisure travelers have been relying on
               Groundlink for dependable, safe, and professional chauffeured car
-              service in major cities across the world.
+              service in major cities across the world. */}
             </p>
           </div>
           <div className="Footer-Middle-UseFull">
@@ -68,9 +68,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="Footer-Bottom">
+      {/* <div className="Footer-Bottom">
         <p>Copyright © 2023. All Rights Reserved.</p>
-      </div>
+      </div> */}
     </>
   );
 }
