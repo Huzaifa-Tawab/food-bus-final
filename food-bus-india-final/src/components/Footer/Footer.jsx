@@ -51,20 +51,9 @@ function Footer() {
             </a>
           </div>
           <div className="Footer-Middle-Help">
-            <h3>Help?</h3>
-            <p>
-              Faq
-              <br />
-              Term & Condition
-              <br />
-              Reporting
-              <br />
-              Documentation
-              <br />
-              Support Policy
-              <br />
-              Privacy
-            </p>
+            <input type="text" placeholder="Email" />
+            <input type="number" placeholder="Phone Number" />
+            <button>Submit</button>
           </div>
         </div>
       </div>

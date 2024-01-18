@@ -41,14 +41,13 @@
     font-family: 400;
   }
 }
-.Footer-Middle-Logo{
+.Footer-Middle-Logo {
   img {
     width: 20vh;
-
   }
 }
-.Footer-Middle-About{
-  img{
+.Footer-Middle-About {
+  img {
     width: 20vh;
   }
 }
@@ -65,7 +64,7 @@
 }
 
 /* CSS */
-.Footer-Top button {
+.Footer-Middle-Help button {
   appearance: button;
   backface-visibility: hidden;
   background-color: #db2b2b;
@@ -125,5 +124,37 @@ a {
   }
   .Footer-Bottom p {
     font-size: 1rem;
+  }
+  .Footer-Middle-Help {
+    padding-top: 20px;
+    height: auto;
+  }
+}
+.Footer-Middle-Help {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Footer-Middle-Help input {
+  background-color: rgb(250, 251, 252);
+  border-color: rgb(223, 225, 230);
+  color: rgb(9, 30, 66);
+  cursor: text;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out 0s,
+    border-color 0.2s ease-in-out 0s;
+  line-height: 1.42857;
+  padding: 8px 6px;
+  height: 36px;
+  :hover {
+    background-color: rgb(235, 236, 240);
+  }
+  :focus {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(76, 154, 255);
   }
 }
