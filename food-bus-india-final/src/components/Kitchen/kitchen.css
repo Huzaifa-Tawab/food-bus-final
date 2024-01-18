@@ -100,7 +100,7 @@
     align-items: center;
     img {
       width: 100vw;
-      height: 180px;
+      /* height: 180px; */
     }
     p {
       padding-top: 10px;
