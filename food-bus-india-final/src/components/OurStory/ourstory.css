@@ -24,12 +24,19 @@
   p {
     margin-top: 20px;
     font-size: 1.5em;
-    font-family: Josefin Sans,serif;
+    font-family: Josefin Sans, serif;
     font-weight: 400;
   }
 }
 
 @media (max-width: 768px) {
+  OurStory-content-card-text p {
+    color: black;
+    font-family: Cormorant Infant, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
   .OurStory-C-content {
     padding: 10px;
     margin: 10vw;
