@@ -63,6 +63,7 @@
 
 .franchise-field input,
 .franchise-field-select select {
+  /* width: 300px; */
   font-size: 18px;
   padding: 5px 10px;
   outline: none;
@@ -326,7 +327,7 @@
     justify-content: center;
 
     select {
-      width: 90%;
+      width: 300px;
       padding: 5px 10px;
       outline: none;
       background: #ffffff;
