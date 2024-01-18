@@ -107,6 +107,7 @@
     }
   }
   .Kitchen-facts {
+    display: none;
     padding-top: 20px;
     flex-wrap: wrap;
     justify-content: center;
