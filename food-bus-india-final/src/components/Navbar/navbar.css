@@ -13,7 +13,6 @@
   font-size: 20px;
   font-weight: 400;
   font-family: "Josefin Sans,serif";
-
 }
 /* .none {
   display: none;
@@ -22,6 +21,7 @@
   a {
     border-radius: 12px;
     padding: 10px 20px;
+    font-weight: 800;
   }
   a.active {
     background: rgba(255, 255, 255, 0.3);
@@ -92,7 +92,6 @@
   .hamburger {
     display: none;
     color: white;
-    
   }
 }
 
@@ -100,7 +99,6 @@
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
-    
   }
   .Nav-Bus {
     display: none;
