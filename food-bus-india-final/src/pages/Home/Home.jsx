@@ -56,7 +56,14 @@ function Home() {
       observer.disconnect();
     };
   }, []);
-
+  const markers = [
+    {
+      lat: 37.7749,
+      lng: -122.4194,
+      // iconUrl: "URL_TO_YOUR_CUSTOM_ICON", // Replace with the URL of your custom icon
+    },
+    // Add more markers as needed
+  ];
   return (
     <div className="Home">
       <SocialBar />

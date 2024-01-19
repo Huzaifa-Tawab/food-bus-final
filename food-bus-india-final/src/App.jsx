@@ -12,6 +12,7 @@ import Faq from "./pages/FAQ/Faq";
 import Contact from "./pages/Contact/Contact";
 import LoaderGif from "./assets/loader.gif";
 import Footer from "./components/Footer/Footer";
+import Map from "./components/Map/Map";
 function App() {
   const [isNavbarVisible, setNavbarVisible] = useState(false);
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -87,6 +88,7 @@ function App() {
             <Route path="/menu" element={<Menu />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/map" element={<Map />} /> */}
           </Routes>
           <Footer />
         </>

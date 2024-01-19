@@ -26,13 +26,11 @@ function Kitchen() {
         </div>
         <div className="Kitchen-fact red">
           <img src={served} alt="" />
-
           <h1>Exceptional Growth</h1>
-          <p>Served over 200000+ customers</p>
+          <p>Served over 2,00,000 + customers till now</p>
         </div>
         <div className="Kitchen-fact blue">
           <img src={team} alt="" />
-
           <h1>Team Members</h1>
           <p>
             More than 70 talented chefs & staff to deliver exceptional service
@@ -42,7 +40,7 @@ function Kitchen() {
           <img src={food} alt="" />
 
           <h1>Cuisine Diversity </h1>
-          <p>Handy, Trendy and Affordable menu</p>
+          <p>Handy , Trendy and Affordable 50 + SKU’s menu</p>
         </div>
       </div>
     </div>
