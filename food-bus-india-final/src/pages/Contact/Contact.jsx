@@ -1,27 +1,39 @@
 import React from "react";
 import "./contact.css";
-import mail from "./emailimg.png"
-import phone from "./phoneimg.png"
+import mail from "./emailimg.png";
+import phone from "./phoneimg.png";
 function Contact() {
-  return(
-  <div className="contctback">
-   <div className="contct-content-box">
-    <h1>Got Suggestions ?  <br></br>We Here ya...</h1>
-    <div className="cntct-text">
-      <div className="contct-email">
-        <img className="magphn-icon"  src={mail}></img>
-        <h2>Operations@foodbusofindia.com</h2>
-      </div>
-      <div className="phone-email">
-        <img className="magphn-icon"  src={phone}></img>
-        <h2>+91-98998-97972</h2>
+  return (
+    <div className="contctback">
+      <div className="contct-content-box">
+        {/* Contact */}
+        <div className="flex-contact">
+          <div className="Content-Card">
+            <div className="Content-Img">
+              <img src={mail} alt="" />
+            </div>
+
+            <div className="Content-Card-solo">
+              <h1>Mail</h1>
+
+              <span>franchise@foodbusofindia.com</span>
+            </div>
+          </div>
+          <div className="Content-Card">
+            <div className="Content-Img">
+              <img src={phone} alt="" />
+            </div>
+
+            <div className="Content-Card-solo">
+              <h1>Phone</h1>
+
+              <span>+91 9899897972</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-   </div>
-   <div clas></div>
-  </div>
-
-)
+  );
 }
 
 export default Contact;
