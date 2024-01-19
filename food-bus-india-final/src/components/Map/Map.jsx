@@ -1,32 +1,3 @@
-// import React from "react";
-// import GoogleMapReact from "google-map-react";
-
-// const AnyReactComponent = () => <div>hjhjkhjkhjkhjkhjk</div>;
-
-// export default function Map() {
-//   const defaultProps = {
-//     center: {
-//       lat: 10.99835602,
-//       lng: 77.01502627,
-//     },
-//     zoom: 11,
-//   };
-
-//   return (
-//     // Important! Always set the container height explicitly
-//     <div style={{ height: "100vh", width: "100%" }}>
-//       <GoogleMapReact
-//         bootstrapURLKeys={{ key: "AIzaSyA2GdjDHfIOvdkscGUDZTtbuWNFuQOI8xM" }}
-//         defaultCenter={defaultProps.center}
-//         defaultZoom={defaultProps.zoom}
-//       >
-//         <AnyReactComponent lat={33.619968} lng={72.9481216} text="My Marker" />
-//         <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-//       </GoogleMapReact>
-//     </div>
-//   );
-// }
-
 import React from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
@@ -40,9 +11,15 @@ const center = {
   lng: 72.9481216,
 };
 
+const markers = [
+  { lat: 28.6428838, lng: 77.176084, text: "Marker 1" },
+
+  { lat: 29.3704275, lng: 75.9080762, text: "Marker 2" },
+];
+
 const Map = () => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyA2GdjDHfIOvdkscGUDZTtbuWNFuQOI8xM",
+    googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY",
     libraries,
   });
 
@@ -61,8 +38,13 @@ const Map = () => {
         zoom={10}
         center={center}
       >
-        <Marker position={center} />
-        {/* <Marker position={lat: 59.955413 lng={ 30.337844}} /> */}
+        {markers.map((marker, index) => (
+          <Marker
+            key={index}
+            position={{ lat: marker.lat, lng: marker.lng }}
+            label={marker.text}
+          />
+        ))}
       </GoogleMap>
     </div>
   );
