@@ -59,7 +59,7 @@ const Map = () => {
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         zoom={10}
-        // center={center}
+        center={center}
       >
         <Marker position={center} />
         {/* <Marker position={lat: 59.955413 lng={ 30.337844}} /> */}
