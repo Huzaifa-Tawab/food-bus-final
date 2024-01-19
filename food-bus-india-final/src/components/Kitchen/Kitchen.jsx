@@ -8,7 +8,7 @@ import food from "../../assets/kitchen/food.png";
 function Kitchen() {
   return (
     <div className="Kitchen">
-      <div className="Kitchen-Flex">
+      {/* <div className="Kitchen-Flex">
         <p className="hedr">
           <span>Standardization and Quality Control:</span>
           <br />
@@ -17,7 +17,7 @@ function Kitchen() {
           addressing the standardization challenge.
         </p>
         <img src={KitchenImg} alt="" />
-      </div>
+      </div> */}
       <div className="Kitchen-facts">
         <div className="Kitchen-fact blue">
           <img src={first} alt="" />

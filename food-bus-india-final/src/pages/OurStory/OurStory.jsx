@@ -2,8 +2,9 @@ import React from "react";
 import Dining from "../../assets/ourstory/image1.jpg";
 import burger from "../../assets/ourstory/image2.jpg";
 import image3rd from "../../assets/ourstory/pizza3.png";
-
 import bussimage from "../../assets/ourstory/imgneww.png";
+import KitchenImg from "../../assets/kitchen/kitchen.jpeg";
+
 import "./ourstory.css";
 function OurStory() {
   return (
@@ -59,6 +60,19 @@ function OurStory() {
           </div>
           <div className="OurStory-content-card-img">
             <img src={bussimage} alt="Dining" />
+          </div>
+        </div>
+        <div className="OurStory-content-card ">
+          <div className="OurStory-content-card-text">
+            <h1> Standardization and Quality Control</h1>
+            <p>
+              With a centralized base kitchen and rigorous SOPs, Food Bus of
+              India ensures consistent food quality and taste across all
+              outlets, addressing the standardization challenge.
+            </p>
+          </div>
+          <div className="OurStory-content-card-img">
+            <img src={KitchenImg} alt="Dining" />
           </div>
         </div>
       </div>
