@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import Logo from "../../assets/logos/FBI-LOGO-H.webp";
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -20,12 +21,26 @@ function Footer() {
         <div className="Footer-Middle">
           <div className="Footer-Middle-About">
             <img src={Logo} alt="Logo" />
-            {/* <h3>About Us.</h3> */}
-            <p>
-              {/* Corporate clients and leisure travelers have been relying on
-              Groundlink for dependable, safe, and professional chauffeured car
-              service in major cities across the world. */}
-            </p>
+            <div className="Footer-Middle-About-social">
+              <div className="socialbox">
+                <a
+                  href="https://www.instagram.com/foodbusofindia/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+              </div>
+              <div className="socialbox">
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook />
+                </a>
+              </div>
+            </div>
           </div>
           <div className="Footer-Middle-UseFull">
             <h3>Useful Links</h3>

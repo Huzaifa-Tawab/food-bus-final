@@ -5,6 +5,8 @@ import "./franchise.css";
 import franch from "../../assets/kitchen/franchhero.jpg";
 import mail from "../../assets/franchise/mail.png";
 import phone from "../../assets/franchise/phone.png";
+import emailjs from "@emailjs/browser";
+
 function Franchise() {
   const [formData, setFormData] = useState({
     name: "",
@@ -38,17 +40,38 @@ function Franchise() {
       setErrors(newErrors);
     } else {
       // Submit the form data (You can replace this with your actual submit logic)
-      console.log("Form submitted:", formData);
-      // Reset form after submission
-      setFormData({
-        name: "",
-        phone: "",
-        state: "",
-        email: "",
-        city: "",
-        investment: "",
-        option: "",
-      });
+      // console.log("Form submitted:", formData);
+      emailjs
+        .send(
+          "service_ym2ax36",
+          "template_uhx920m",
+          {
+            from_name: "Franchie Form FoodBus India",
+            to_name: "Sukraj",
+            name: formData.name,
+            phone: formData.phone,
+            state: formData.state,
+            email: formData.email,
+            city: formData.city,
+            investment: formData.investment,
+            option: formData.option,
+            reply_to: formData.email,
+          },
+          "pKDssUYIlChCrG_Aa"
+        )
+
+        .then(() => {
+          alert("your Mail Has Been Sent");
+          setFormData({
+            name: "",
+            phone: "",
+            state: "",
+            email: "",
+            city: "",
+            investment: "",
+            option: "",
+          });
+        });
     }
   };
 

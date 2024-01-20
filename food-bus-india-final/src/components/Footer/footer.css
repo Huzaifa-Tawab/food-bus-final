@@ -35,6 +35,7 @@
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  gap: 10vw;
   p {
     width: 20vw;
     font-family: Josefin Sans, serif;
@@ -177,4 +178,18 @@ a {
     color: rgb(255, 255, 255) !important;
     opacity: 1; /* Firefox */
   }
+}
+.Footer-Middle-About-social {
+  display: none;
+  /* display: flex; */
+  align-items: center;
+  gap: 10px;
+}
+.socialbox {
+  background-color: black;
+  margin: 5px;
+  border-radius: 16;
+}
+.Footer-Middle-About-social a {
+  padding: 5px;
 }
