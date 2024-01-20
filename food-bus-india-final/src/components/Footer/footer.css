@@ -1,6 +1,6 @@
 .Footer {
   background: #141d74;
-  padding: 5vh 10vw;
+  padding: 5vh 0px;
 
   h1 {
     font-size: 1.8rem;
@@ -34,7 +34,7 @@
   /* border-top: 2px solid rgb(219, 43, 43); */
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   p {
     width: 20vw;
     font-family: Josefin Sans, serif;
@@ -43,7 +43,7 @@
 }
 .Footer-Middle-Logo {
   img {
-    width: 20vh;
+    width: 30vh;
   }
 }
 .Footer-Middle-About {
@@ -52,10 +52,11 @@
   }
 }
 .Footer-Bottom {
-  background: #db2b2b;
-
+  padding: 10px;
+  background: #141d74;
+  text-align: center;
   p {
-    padding: 0px !important;
+    padding: 0px 10vw !important;
     margin: 0px !important;
     font-family: Josefin Sans, serif;
     font-family: 400;
@@ -75,7 +76,6 @@
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-
   font-size: 100%;
   height: 44px;
   line-height: 1;
@@ -94,7 +94,9 @@
   font-family: Josefin Sans, serif;
   font-weight: 500;
 }
-
+.Footer-Middle-Help button :hover {
+  background-color: #8c1c1c;
+}
 .Footer-Top button:disabled {
   cursor: default;
 }
@@ -117,7 +119,9 @@ a {
     flex-direction: column;
   }
   .Footer-Middle {
+    padding: 10px;
     flex-direction: column;
+    text-align: center;
   }
   .Footer-Middle p {
     width: auto;
@@ -129,6 +133,18 @@ a {
     padding-top: 20px;
     height: auto;
   }
+
+  .links-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    a {
+      text-decoration: underline;
+    }
+  }
+  .Footer-Middle-Help {
+    text-align: center;
+  }
 }
 .Footer-Middle-Help {
   display: flex;
@@ -136,9 +152,9 @@ a {
   gap: 20px;
 }
 .Footer-Middle-Help input {
-  background-color: rgb(250, 251, 252);
-  border-color: rgb(223, 225, 230);
-  color: rgb(9, 30, 66);
+  background-color: #db2b2b;
+  border-color: #db2b2b;
+  color: #fff;
   cursor: text;
   border-radius: 3px;
   border-width: 2px;
@@ -156,5 +172,9 @@ a {
   :focus {
     background-color: rgb(255, 255, 255);
     border-color: rgb(76, 154, 255);
+  }
+  ::placeholder {
+    color: rgb(255, 255, 255) !important;
+    opacity: 1; /* Firefox */
   }
 }
