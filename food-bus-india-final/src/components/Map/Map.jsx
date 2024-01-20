@@ -1,5 +1,11 @@
 import React from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  useLoadScript,
+  Marker,
+  MarkerF,
+} from "@react-google-maps/api";
+import Bus from "../../assets/logos/Bus.webp";
 
 const libraries = ["places"];
 const mapContainerStyle = {
@@ -7,20 +13,22 @@ const mapContainerStyle = {
   height: "100vh",
 };
 const center = {
-  lat: 33.619968,
-  lng: 72.9481216,
+  lat: 28.6428838,
+  lng: 77.176084,
 };
 
 const markers = [
-  { lat: 28.6428838, lng: 77.176084, text: "Marker 1" },
+  { lat: 28.645214214491705, lng: 77.17865889353992 },
+  { lat: 28.698134108264224, lng: 77.2149735389862 },
 
-  { lat: 29.3704275, lng: 75.9080762, text: "Marker 2" },
+  { lat: 28.572300913191132, lng: 77.23830943217835 },
+
+  { lat: 28.572150157611475, lng: 77.21994166649012 },
 ];
 
 const Map = () => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY",
-    libraries,
+    googleMapsApiKey: "AIzaSyA2GdjDHfIOvdkscGUDZTtbuWNFuQOI8xM",
   });
 
   if (loadError) {
@@ -39,10 +47,13 @@ const Map = () => {
         center={center}
       >
         {markers.map((marker, index) => (
-          <Marker
+          <MarkerF
+            icon={{
+              url: Bus,
+              scaledSize: new window.google.maps.Size(50, 50),
+            }}
             key={index}
             position={{ lat: marker.lat, lng: marker.lng }}
-            label={marker.text}
           />
         ))}
       </GoogleMap>
