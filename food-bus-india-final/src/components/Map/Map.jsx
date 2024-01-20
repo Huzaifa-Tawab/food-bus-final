@@ -12,9 +12,10 @@ const mapContainerStyle = {
   width: "100vw",
   height: "100vh",
 };
+
 const center = {
-  lat: 28.6428838,
-  lng: 77.176084,
+  lat: 28.610472500678526,
+  lng: 77.19866274283488,
 };
 
 const markers = [
@@ -43,7 +44,7 @@ const Map = () => {
     <div>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
-        zoom={10}
+        zoom={13}
         center={center}
       >
         {markers.map((marker, index) => (
