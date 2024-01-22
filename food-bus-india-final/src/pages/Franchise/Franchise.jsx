@@ -43,7 +43,7 @@ function Franchise() {
       // console.log("Form submitted:", formData);
       emailjs
         .send(
-          "service_n9pe088",
+          "service_sskezmy",
           "template_uhx920m",
           {
             from_name: "Franchie Form FoodBus India",
