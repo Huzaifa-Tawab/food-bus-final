@@ -1,23 +1,8 @@
-.Menu-desktop {
-  img {
-    padding-top: 10vh;
-    /* height: 90vh; */
-    width: 100vw;
-  }
-}
 .Menu-mobile {
-  display: none;
-}
-@media (max-width: 876px) {
-  .Menu-desktop {
-    display: none;
-  }
-  .Menu-mobile {
-    padding-top: 12vh;
-    display: flex;
-    flex-direction: column;
-    img {
-      width: 100vw;
-    }
+  padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100vw;
   }
 }
