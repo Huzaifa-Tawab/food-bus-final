@@ -3,7 +3,51 @@ import "./footer.css";
 import Logo from "../../assets/logos/FBI-LOGO-H.webp";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 function Footer() {
+  const [Email, setEmail] = useState("");
+  const [EmailError, setEmailError] = useState();
+  const [Phone, setPhone] = useState("");
+  const [PhoneError, setPhoneError] = useState();
+
+  function handleSubmit(e) {
+    setEmailError("");
+    setPhoneError("");
+    var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+    var validRegex =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    if (validRegex.test(Email)) {
+      if (re.test(Phone)) {
+        sendEmail();
+      } else {
+        setPhoneError("Phone Number Not Correct");
+      }
+    } else {
+      setEmailError("Email Not Correct");
+    }
+  }
+  function sendEmail() {
+    emailjs
+      .send(
+        "service_sskezmy",
+        "template_22jo658",
+        {
+          from_name: "Footer Newsletter",
+          to_name: "Sukraj",
+          message: `Email is ${Email} and Phone Number is ${Phone}`,
+          reply_to: Email,
+        },
+        "pKDssUYIlChCrG_Aa"
+      )
+      .then(() => {
+        alert("Email Submited");
+        setEmail("");
+        setPhone("");
+      });
+  }
   return (
     <>
       <div className="Footer">
@@ -72,9 +116,29 @@ function Footer() {
               Connect With Us To Know Stay <br />
               Update!!!
             </h3>
-            <input type="email" value={"Email"} />
-            <input type="number" value={"1234567890"} />
-            <button>Submit</button>
+            <div className="inputgroup">
+              <input
+                type="email"
+                placeholder="Email"
+                value={Email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+              />
+              <p>{EmailError}</p>
+            </div>
+            <div className="inputgroup">
+              <input
+                type="number"
+                placeholder="Phone"
+                value={Phone}
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                }}
+              />
+              <p>{PhoneError}</p>
+            </div>
+            <button onClick={handleSubmit}>Submit</button>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@
   padding: 5vw;
   text-align: center;
   h1 {
-    color: rgb(219, 43, 43);
+    color: #ffff;
     font-size: 3em;
     font-weight: 700;
     font-family: Cormorant Infant, serif;
@@ -38,6 +38,58 @@
     line-height: normal;
   }
   .OurStory-C-content {
+    padding: 10px;
+    margin: 10vw;
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
+}
+
+.OurStory-K {
+  height: 100vh;
+  width: 100vw;
+  background: url("./OurStory-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OurStory-K-content {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 20vw;
+  padding: 5vw;
+  text-align: center;
+  h1 {
+    color: #db2b2b;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Cormorant Infant, serif;
+    font-weight: 700;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-family: Josefin Sans, serif;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+  OurStory-Kontent-card-text p {
+    color: black;
+    font-family: Cormorant Infant, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+  .OurStory-K-content {
     padding: 10px;
     margin: 10vw;
     h1 {

@@ -150,9 +150,14 @@ a {
 .Footer-Middle-Help {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
-.Footer-Middle-Help input {
+.inputgroup p {
+  color: #db2b2b;
+  margin: 0px;
+}
+.inputgroup input {
+  width: 100%;
   background-color: #db2b2b;
   border-color: #db2b2b;
   color: #fff;
@@ -174,9 +179,20 @@ a {
     background-color: rgb(255, 255, 255);
     border-color: rgb(76, 154, 255);
   }
+  ::-webkit-input-placeholder {
+    color: red;
+  }
+
+  ::-moz-placeholder {
+    color: red;
+  }
+
+  ::-ms-placeholder {
+    color: red;
+  }
+
   ::placeholder {
-    color: rgb(255, 255, 255) !important;
-    opacity: 1; /* Firefox */
+    color: red;
   }
 }
 .Footer-Middle-About-social {

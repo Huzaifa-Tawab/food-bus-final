@@ -43,7 +43,7 @@ function Franchise() {
       // console.log("Form submitted:", formData);
       emailjs
         .send(
-          "service_sy96dii",
+          "service_sskezmy",
           "template_uhx920m",
           {
             from_name: "Franchie Form FoodBus India",
@@ -288,7 +288,7 @@ function Franchise() {
             <div className="Content-Card-solo">
               <h1>Mail</h1>
 
-              <span>franchise@foodbusofindia.com</span>
+              <span>Operations@foodbusofindia.com</span>
             </div>
           </div>
           <div className="Content-Card">
