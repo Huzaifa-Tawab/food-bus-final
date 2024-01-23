@@ -8,7 +8,10 @@ function OurStory() {
         <div className="OurStory-C-content-changes">
           <img src={logo} className="changes-logo" />
           <p>India’s First</p>
-          <h1>Double Decker Dine-in</h1>
+          <h1>
+            Double Decker Dine-in <br />
+            Food Chain
+          </h1>
         </div>
         {/* <p>
           Step into the future
