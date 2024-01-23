@@ -288,7 +288,7 @@ function Franchise() {
             <div className="Content-Card-solo">
               <h1>Mail</h1>
 
-              <span>Operations@foodbusofindia.com</span>
+              <span>franchise@foodbusofindia.com</span>
             </div>
           </div>
           <div className="Content-Card">

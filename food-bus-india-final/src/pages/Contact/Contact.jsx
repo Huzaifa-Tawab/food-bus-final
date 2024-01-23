@@ -16,7 +16,7 @@ function Contact() {
             <div className="Content-Card-solo">
               <h1>Mail</h1>
 
-              <span>franchise@foodbusofindia.com</span>
+              <span>Operations@foodbusofindia.com</span>
             </div>
           </div>
           <div className="Content-Card">

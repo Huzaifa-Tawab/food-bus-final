@@ -1,10 +1,15 @@
 import React from "react";
 import "./ourstory.css";
+import logo from "../../assets/logos/FBI-LOGO-H.webp";
 function OurStory() {
   return (
     <div className="OurStory-C">
       <div className="OurStory-C-content">
-        <h1>India’s First Double Decker Dine-in</h1>
+        <div className="OurStory-C-content-changes">
+          <img src={logo} className="changes-logo" />
+          <p>India’s First</p>
+          <h1>Double Decker Dine-in</h1>
+        </div>
         {/* <p>
           Step into the future
           of dining with Food Bus of India, an avant-garde concept that reshapes
