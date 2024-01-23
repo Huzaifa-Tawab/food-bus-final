@@ -285,7 +285,7 @@
   .bluee h1 {
     color: #fff;
     font-size: 2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   .front p {
     padding: 0px;
