@@ -10,7 +10,7 @@ function OurStory() {
           <p>India’s First</p>
           <h1>
             Double Decker Dine-in <br />
-            Food Chain
+            Food Chain...
           </h1>
         </div>
         {/* <p>

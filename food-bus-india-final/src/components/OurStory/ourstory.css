@@ -29,15 +29,14 @@
   }
   p {
     color: #ffff;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 1.5em;
     font-family: Josefin Sans, serif;
     font-weight: 400;
     font-style: italic;
     background: #db2b2b;
-
     width: max-content;
-    padding: 5px;
+    padding: 0px 5px;
   }
 }
 
@@ -116,7 +115,7 @@
 .changes-logo {
   width: 50px;
   position: relative;
-  top: 55px;
+  top: 63px;
   right: 18px;
   transform: rotate(323deg);
 }
