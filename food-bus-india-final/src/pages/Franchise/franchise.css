@@ -1,6 +1,6 @@
 /* Franchise Form Styles */
 .Franchise {
-  padding: 10vw 5vw 0px 5vw;
+  /* padding: 10vw 5vw 0px 5vw; */
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,20 +259,23 @@
   color: white;
 } */
 .Frannchise-hero {
-  width: 55vw;
+  display: flex;
+  width: 100%;
+  /* width: 55vw; */
+  box-shadow: rgb(38, 57, 77) 0px -10px 125px 0px;
+  border-radius: 14px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  /* margin: 45px 0px;
+  padding: 30px 0px; */
+  gap: 10px;
+  color: #db2b2b;
 }
 .fran {
-  width: 55vw;
+  width: 100%;
 }
-.Frannchise-hero {
-  width: 55vw;
 
-  .fran {
-    width: 55vw;
-    margin-left: 17vw;
-    margin-bottom: 15vh;
-  }
-}
 .Franchise-Form > form {
   padding: 20px 10%;
   margin-top: 3vh;
@@ -445,7 +448,7 @@
 }
 .front h1 {
   font-size: 2rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .Content-Card {
