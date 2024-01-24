@@ -28,7 +28,7 @@
     font-weight: 700;
   }
   p {
-    color: #ffff;
+    color: #db2b2b;
     /* margin-top: 20px; */
     font-size: 4em;
     font-family: Josefin Sans, serif;
@@ -54,7 +54,7 @@
       font-weight: 700;
     }
     p {
-      font-size: 1.2em;
+      font-size: 3em;
     }
   }
 }
