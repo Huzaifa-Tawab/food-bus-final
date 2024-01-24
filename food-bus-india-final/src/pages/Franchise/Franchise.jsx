@@ -118,9 +118,8 @@ function Franchise() {
 
   return (
     <div className="Franchise">
+      <h1> Be Your Own Boss</h1>
       <div className="Frannchise-hero">
-        <h1> Be Your Own Boss</h1>
-
         <img className="fran" src={franch}></img>
       </div>
       <div className="Franchise-cards">
