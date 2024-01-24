@@ -445,7 +445,7 @@
 }
 .front h1 {
   font-size: 2rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .Content-Card {
