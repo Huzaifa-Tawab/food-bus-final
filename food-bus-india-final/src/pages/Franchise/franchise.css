@@ -1,6 +1,6 @@
 /* Franchise Form Styles */
 .Franchise {
-  padding: 10vw 5vw 0px 5vw;
+  /* padding: 10vw 5vw 0px 5vw; */
   background: url("./background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,13 +267,13 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
-  margin: 45px 0px;
-  padding: 30px 0px;
+  /* margin: 45px 0px;
+  padding: 30px 0px; */
   gap: 10px;
   color: #db2b2b;
 }
 .fran {
-  width: 55vw;
+  width: 100%;
 }
 
 .Franchise-Form > form {
